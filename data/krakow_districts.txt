@@ -1,0 +1,247 @@
+﻿STARE MIASTO
+Kazimierz
+Kleparz
+Nowe Miasto
+Nowy Świat
+Piasek
+Stare Miasto
+Stradom
+Warszawskie
+Wawel
+
+GRZEGÓRZKI
+Dąbie
+Grzegórzki
+Kazimierz
+Olsza
+Oficerskie
+Wesoła
+
+PRĄDNIK CZERWONY
+Olsza
+Olsza II
+Prądnik Czerwony
+Rakowice
+Śliczna
+Ugorek
+Wieczysta
+Osiedle Gotyk
+
+PRĄDNIK BIAŁY
+Azory
+Bronowice Wielkie
+Górka Narodowa
+Górka Narodowa Wschód
+Górka Narodowa Zachód
+Krowodrza Górka
+Witkowice Nowe
+Prądnik Biały
+Tonie
+Witkowice
+Żabiniec
+
+KROWODRZA
+Cichy Kącik
+Czarna Wieś
+Krowodrza
+Łobzów
+Miasteczko Studenckie AGH
+Nowa Wieś
+
+BRONOWICE
+Bronowice
+Bronowice Małe
+Mydlniki
+Bronowice Nowe
+Widok Zarzecze
+
+ZWIERZYNIEC
+Bielany
+Chełm
+Olszanica
+Półwsie Zwierzynieckie
+Przegorzały
+Wola Justowska
+Zwierzyniec
+Salwator
+Zakamycze
+
+DĘBNIKI
+Bodzów
+Dębniki
+Kobierzyn
+Koło Tynieckie
+Kostrze
+Ludwinów
+Podgórki Tynieckie
+Pychowice
+Sidzina
+Skotniki
+Tyniec
+Zakrzówek
+Kapelanka
+Kliny Zacisze
+Mochnaniec
+Osiedle Europejskie
+Osiedle Interbud
+Osiedle Kolejowe
+Osiedle Panorama
+Osiedle Podwawelskie
+Osiedle Proins
+Osiedle Ruczaj
+Osiedle Ruczaj-Zaborze
+
+ŁAGIEWNIKI - BOREK FAŁĘCKI
+Borek Fałęcki
+Łagiewniki
+Osiedle Cegielniana
+Zaułek Jugowicki
+
+SWOSZOWICE
+Uzdrowisko Swoszowice
+Bania
+Barycz
+Jugowice
+Kliny Borkowskie
+Kosocice
+Lusina
+Łysa Góra
+Opatkowice
+Rajsko
+Siarczana Góra
+Soboniowice
+Wróblowice
+Zbydniowice
+
+PODGÓRZE DUCHACKIE
+Kurdwanów
+Kurdwanów Nowy
+Piaski Nowe
+Podlesie
+Piaski Wielkie
+Wola Duchacka
+Wola Duchacka Wschód
+Wola Duchacka Zachód
+
+BIEŻANÓW - PROKOCIM
+Bieżanów
+Bieżanów Kolonia
+Kaim
+Łazy
+Bieżanów Nowy
+Osiedle Kolejowe
+Osiedle Medyków
+Na Kozłówce
+Osiedle Nad Potokiem
+Osiedle Parkowe
+Nowy Prokocim
+Osiedle Złocień
+Prokocim
+Rżąka
+
+PODGÓRZE
+Łutnia
+Mateczny
+Płaszów
+Podgórze
+Przewóz
+Rybitwy
+Zabłocie
+
+CZYŻYNY
+Czyżyny
+Łęg
+2 Pułku Lotniczego
+Akademickie
+Dywizjonu 303
+
+MISTRZEJOWICE
+Batowice
+Dziekanowice
+Mistrzejowice
+Osiedle Bohaterów Września
+Osiedle Kombatantów
+Mistrzejowice Nowe
+Osiedle Oświecenia
+Osiedle Piastów
+Osiedle Srebrnych Orłów
+Osiedle Tysiąclecia
+Osiedle Złotego Wieku
+
+BIEŃCZYCE
+Bieńczyce
+Osiedle Albertyńskie
+Osiedle Jagiellońskie
+Osiedle Kalinowe
+Osiedle Kazimierzowskie
+Osiedle Kościuszkowskie
+Osiedle Na Lotnisku
+Osiedle Niepodległości
+Osiedle Przy Arce
+Osiedle Strusia
+Osiedle Wysokie
+Osiedle Złotej Jesieni
+
+WZGÓRZA KRZESŁAWICKIE
+Grębałów
+Kantorowice
+Krzesławice
+Lubocza
+Łuczanowice
+Dłubnia 
+Na Stoku
+Na Wzgórzach
+Wadów
+Węgrzynowice
+Zesławice
+
+NOWA HUTA
+Błonie
+Branice
+Centrum A
+Centrum B
+Centrum C
+Centrum D
+Centrum E
+Chałupki
+Chałupki Górne
+Cło
+Górka Kościelnicka
+Holendry
+Kopaniny
+Kościelniki
+Kujawy
+Mogiła
+Nowa Huta
+Nowa Wieś
+Osiedle Górali
+Osiedle Handlowe
+Osiedle Hutnicze
+Osiedle Kolorowe
+Osiedle Krakowiaków
+Osiedle Lesisko
+Osiedle Młodości
+Osiedle Na Skarpie
+Osiedle Ogrodowe
+Osiedle Słoneczne
+Osiedle Sportowe
+Osiedle Spółdzielcze
+Osiedle Stalowe
+Osiedle Szklane Domy
+Osiedle Szkolne
+Osiedle Teatralne
+Osiedle Urocze
+Osiedle Wandy
+Osiedle Willowe
+Osiedle Zgody
+Osiedle Zielone
+Piekiełko
+Pleszów
+Przylasek Rusiecki
+Przylasek Wyciąski
+Ruszcza
+Stryjów
+Wola Rusiecka
+Wolica
+Wróżenice
+Wyciąże 
