@@ -7,6 +7,7 @@ import com.mateuszmidor.AddressExtractorPrototype.dictionarybasedextractor.Dicti
 
 public class Main {
 
+    private static boolean printSources = false;
     /**
      * @param args
      * @throws IOException
@@ -21,12 +22,11 @@ public class Main {
         System.out.println("Context based extractor");
         Extractor e = new ContextBasedExtractor();
         testExtractor(samples, e);
-        
     }
 
-    private static void testDictionaryBasedExtractor(TestSamples samples) {
+    private static void testDictionaryBasedExtractor(TestSamples samples) throws IOException {
         System.out.println("Dictionary based extractor");
-        Extractor e = new DictionaryBasedExtractor();
+        Extractor e = new DictionaryBasedExtractor("data/krakow_streets.txt");
         testExtractor(samples, e);
     }
 
@@ -34,10 +34,13 @@ public class Main {
         int num_found = 0;
         for (TestSample sample : samples) {
             String address = e.extract(sample.sources);
-//            System.out.println(sample);
-//            System.out.println("Found address: " + address);
-//            System.out.println();
 
+            if (printSources) {
+                System.out.println(sample);
+                System.out.println("Found address: " + address);
+                System.out.println();
+            }
+            
             if (!address.startsWith("[")) {
                 num_found++;
             }
