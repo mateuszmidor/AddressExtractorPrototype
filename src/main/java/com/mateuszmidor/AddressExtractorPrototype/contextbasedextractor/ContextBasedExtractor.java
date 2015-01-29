@@ -1,11 +1,12 @@
-package com.mateuszmidor.AddressExtractorPrototype.contextbased;
+package com.mateuszmidor.AddressExtractorPrototype.contextbasedextractor;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import com.mateuszmidor.AddressExtractorPrototype.AddressSources;
+import com.mateuszmidor.AddressExtractorPrototype.Extractor;
 
-public class Extractor {
+public class ContextBasedExtractor implements Extractor{
 
     public String extract(final AddressSources sources) {
         final String[] CONTEXT_LEFT_KEYWORDS = {"ulica", "ulicy", "ul ", "ul.", "aleja", "alei", "al ", "al."};
