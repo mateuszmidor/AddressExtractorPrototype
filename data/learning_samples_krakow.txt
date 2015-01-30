@@ -2,103 +2,103 @@
 source=Raciborska 17, 30-384 Kraków, Polska
 source=Mieszkanie Kraków - Ruczaj 52m2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia 2 - pokojowe mieszkanie (52m2) przy ulicy Raciborskiej (pasaż Ruczaj). Mieszkanie jest umeblowane i wyposażone w sprzęt AGD ( pralka, lodówka, płyta indukcyjna, piekarnik ). Składa się z dwóch pokoi w tym pokój dziennego z aneksem kuchen
-expected= 
+expected=Raciborska 17
 # 2.
 source=Tuchowska, Kraków, Polska
 source=Mieszkanie na ul. Tuchowskiej (Kurdwanów) Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków. Kurdwanów, ul. Tuchowska. Blisko Bonarki, nowych biurowców, blisko lini tramwajowej i autobusowej. Szybki dojazd w każda stronę Krakowa. Mieszkanie w nowym budownictwie stylowe, blok monitorowany, osiedle zamknięte. Powierzchnia mieszkania ok
-expected= 
+expected=Tuchowska
 # 3.
 source=Radzikowskiego, Kraków, Polska
 source=MIESZKANIE 2 POKOJOWE UL. RADZIKOWSKIEGO KRAKÓW Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie 2 pokojowe, w idealnym stanie, komfortowo wyposażone, usytuowane w okolicach Makro, Ikea(ok. 10 minut samochodem do Rynku Głównego). Kuchnia - otwarta na duży pokój, umeblowana i w pełni wyposażona(lodówka, płyta ceramiczna, piekarnik elek
-expected= 
+expected=Radzikowskiego
 # 4.
 source=Sebastiana Klonowica 15, Kraków, Polska
 source=Wynajmę mieszkanie Kraków , ul.Klonowica Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie na 1 piętrze budyku przy ulicy Klonowica - bliska okolica Bonarki . Mieszkanie ma powierzchnię około 55m2, składa się z 3 pokoi, jasnej kuchni, łazienki . Koszt wynajmu to 1500zł + media wg zużycia - mieszkanie ogrzewane jest piece
-expected= 
+expected=Sebastiana Klonowica 15
 # 5.
 source=Małopolskie
 Kraków
 source=Kraków-Śródmieście trzypokojowe 1 piętro Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków-Śródmieście ul. Krowoderska od strony Plant; 57 m2 trzypokojowe 1 piętro łazienka kuchnia przedpokój; ogrzewanie centralne gazowe; częściowo umeblowane - trzy szafy wnękowe, dwa biurka; możliwość umeblowania na życzenie; Czynsz 1950 zł/m-c + m
-expected= 
+expected=Krowoderska
 # 6.
 source=Piasta Kołodzieja, Kraków, Polska
 source=3 pokojowe mieszkanie, ul. Piasta Kołodzieja, Kraków, Nowa-Huta Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam, właściciel wynajmie mieszkanie 3 pokojowe (2 osobne pokoje + salon z kuchnią, garderoba, łazienka, balkon). Mieszkanie mieści na 1-szym piętrze w bloku z windą, powierzchnia 53 m2. Powierzchnia pokoi salon  - 22,5 m, średni pokój - 12,5 m, mał
-expected= 
+expected=Piasta Kołodzieja
 # 7.
 source=Rynek Główny, 30-062 Kraków, Polska
 source=Wynajmę mieszkanie ul. Szewska, Kraków - Rynek / Bezpośrednio Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie ul. Szewska do wynajęcia !!! /Rynek Główny/Właściciel wynajmie mieszkanie jednopokojowe , kuchnia, łazienka, 40 m2, piętro II,po remoncie, w pełni umeblowane, pralka, lodówka, 2 tapczany do spania, internet, ogrzewanie mieszkania na ta
-expected= 
+expected=Szewska
 # 8.
 source=Kazimierza Pużaka 6, Kraków, Polska
 source=Mieszkanie po babci oddam w dobre ręce! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę od zaraz mieszkanie przy ul. Pużaka 6. Mieszkanie składa się z pokoju, łazienki, kuchni połączonej z korytarzem. Jest umeblowane - dwa łóżka, pojemne szafy, telewizor, kuchenka gazowa z piekarnikiem, pralka.Piętro pierwsze, okno na zachód,
-expected= 
+expected=Kazimierza Pużaka 6
 # 9.
 source=Uśmiech, Kraków, Polska
 source=Komfort 3 kawalerki Centrum , rondo Matecznego, Bonarka, Tramwa Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Lokalizacja mieszkania - Kraków ulica Uśmiech - blisko przystanek Tramwaj Kabel i masę autobusów z Kamieńskiego i Wielickiej - zespół samodzielnych wydzielonych  3 kawalerek w luksusowym domu jednorodzinnym bez mieszkającego właściciela - wysoki stan
-expected= 
+expected=Uśmiech
 # 10.
 source=Ludwika Nabielaka, Kraków, Polska
 source=wynajmę Mieszkanie Flat 54m KRAKÓW Śródmieście ul. Nabielaka Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=BEZ POŚREDNIKÓW Do wynajęcia mieszkanie 54m2 znajduje się na pierwszym piętrze w trzypiętrowym budynku w zabudowie szeregowej na ul. Nabielaka w Krakowie. Baaardzo spokojne osiedle, wejście przez klatkę schodową z domofonem. Loft z nowoczesnym charak
-expected= 
+expected=Ludwika Nabielaka
 # 11.
 source=Kraków, Polska
 source=Wyjamę od zaraz mieszkanie dwupokojowe Kraków os. Rżąka Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia od zaraz dwupokojowe mieszkanie w Krakowie os. Rżąka, II piętro . Mieszkanie 48 m2, posiada dwa pokoje, przedpokój, kuchnia, łazienka oraz balkon ok. 10 m2. Mieszkanie jest w pełni umeblowane. Przestronne, słoneczne, ciepłe i gotowe do z
-expected= 
+expected=Rżąka
 # 12.
 source=Szuwarowa, Kraków, Polska
 source=Mieszkanie Kraków Szuwarowa Ruczaj wysoki standard Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam, mam do zaoferowania piękne dwupoziomowe mieszkanie w Krakowie Dębie na ul. Szuwarowej. Mieszkanie znajduje się na nowym monitorowanym osiedlu w nowym budownictwie. Lokalizacja 20 minut od centrum.Mieszkanie składa się z w pełni wyposażonej
-expected= 
+expected=Szuwarowa
 # 13.
 source=aleja Ignacego Daszyńskiego, Kraków, Polska
 source=Kawalerka al. Daszyńskiego Grzegórzki Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kawalerka w okolicy Hali Targowej, położona na pierwszym piętrze, składająca się z słonecznego, ustawnego pokoju, przedpokoju z aneksem kuchennym, łazienki z wc.Mieszkanie wyposażone w sprzęt AGD, umeblowane, czyste, odświeżone gotowe do zamieszk
-expected= 
+expected=Ignacego Daszyńskiego
 # 14.
 source=Huta, Polska
 source=Piękne mieszkanie 54m2 - nowe bud. - os. Piastów 65, Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia przestronne piękne mieszkanie w nowym budownictwie o pow. 54 m2 + loggia 15 m2 z dwoma wejściami z salonu. Mieszkanie 2-pokojowe. Sypialnia + salon z aneksem kuchennym o pow. 33m2. Mieszkanie jest w pełni wyposażone ( kuchnia – lodówka z
-expected= 
+expected=Piastów 65
 # 15.
 source=Lubicz, Kraków, Polska
 source=FAJNE ŁADNE MIESZKANIE - KRAKÓW RAKOWICKA LUBICZ - TANIO! 22M2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia, mieszkanie jednopokojowe (kawalerka) w nowocześnie wyremontowanych oficynach kamienicy (róg Lubicz i Rakowickiej)Powierzchnia - ok 22 m2Pokój z łazienką i aneksem kuchennym.CENY:ŁĄCZNA CENA ZE WSZYSTKIMI OPŁATAMI (prąd, woda,
-expected= 
+expected=Lubicz
 # 16.
 source=Dietla 55, 33-332 Kraków, Polska
 source=Super mieszkanie w centrum! Kazimierz Dietla FLAT FOR RENT Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Flat for rent! Feel free to contact me by phone or e-mail!Wynajmę mieszkanie w centrum Krakowa! Opis mieszkania:► powierzchnia: 53m2► mieszkanie składa się z dwóch pokoi (w tym jeden przechodni), kuchni z aneksem, łazienki i sporego
-expected= 
+expected=Dietla 55
 # 17.
 source=Pod Fortem, Kraków, Polska
 source=WYPOSAŻONE 2-POKOJOWE DLA PRACUJĄCEJ PARY (KROWODRZA) Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam,mam do wynajęcia 2-pokojowe mieszkanie z aneksem kuchennym, balkonem oraz miejscem postojowym w garażu podziemnym dla pracującej pary/małżeństwa od marca tego roku. Mieszkanie znajduje się na ul. Pod Fortem (dzielnica Krowodrza) - bardzo
-expected= 
+expected=Pod Fortem
 # 18.
 source=Kraków, Polska
 source=Wynajmę mieszkanie 2 pokojowe Kraków Prokocim Nowy Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę samodzielne 2-pokojowe mieszkanie na drugim piętrze o pow. 30,2 m2 znajdujące się w 10-piętrowym bloku z windą. Mieszkanie składa się z dwóch przechodnich pokoi, „ślepej” kuchni oraz łazienki z WC. Jest wyposażone kompletnie.Połączenia komu
-expected= 
+expected=Prokocim Nowy
 # 19.
 source=Królowej Jadwigi, Kraków, Polska
 source=Super nowoczesny apartament na Woli Justowskiej w Krakowie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków, Krowodrza ( Wola Justowska – okolica Parku Decjusza), ul. Królowej Jadwigi , pow. 100 m ² cała kondygnacja na I –ym piętrze w domu wolnostojącym + garaż na samochód Lokalizacja Kraków, ul. Królowej Jadwigi 207 Dzielnica: Krowodrza Centrum Wol
-expected= 
+expected=Królowej Jadwigi
 # 20.
 source=Kraków, Polska
 source=DO WYNAJĘCIA JEDNOPOKOJOWE KRAKÓW STARE PODGÓRZE Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Oferujemy do wynajęcia komfortowe, ładne mieszkanie o powierzchni 30 m2 w pobliżu Rynku Podgórskiego . Mieszkanie składa się z pokoju z balkonem, samodzielnej kuchni i łazienki , częściowo umeblowane , kuchnia zbudowana ,wyposażone w lodówkę i pralkę
-expected= 
+expected=STARE PODGÓRZE
 # 21.
 source=Lubicz, Kraków, Polska
 source=FAJNE ŁADNE MIESZKANIE - KRAKÓW RAKOWICKA LUBICZ - TANIO! 22M2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
