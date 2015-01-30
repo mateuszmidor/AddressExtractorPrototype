@@ -10,14 +10,14 @@ import com.mateuszmidor.AddressExtractorPrototype.extractor.dictinarybased.Dicti
 
 public class Main {
 
-    private static boolean printSources = false;
+    private static boolean printFailedExtractions = true;
     /**
      * @param args
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
         TestSamples samples = TestSamples.fromFile("data/learning_samples_krakow.txt");
-        testContextBasedExtractor(samples);
+//        testContextBasedExtractor(samples);
         testDictionaryBasedExtractor(samples);
     }
 
@@ -38,7 +38,7 @@ public class Main {
         for (TestSample sample : samples) {
             String address = e.extract(sample.sources);
 
-            if (printSources) {
+            if ((printFailedExtractions) && (!sample.expected_result.contains(address))) {
                 System.out.println(sample);
                 System.out.println("Found address: " + address);
                 System.out.println();

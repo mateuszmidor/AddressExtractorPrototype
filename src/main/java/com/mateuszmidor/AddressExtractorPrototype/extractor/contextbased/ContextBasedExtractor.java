@@ -13,7 +13,33 @@ public class ContextBasedExtractor implements Extractor{
 
 	@Override
     public String extract(final AddressSources sources) {
-        final String[] CONTEXT_LEFT_KEYWORDS = {"ulica", "ulicy", "ul ", "ul.", "aleja", "alei", "al ", "al.", 
+        String withPrefix = extractPrefixBased(sources);
+        if (!withPrefix.isEmpty()) {
+        	return withPrefix;
+        }
+        
+        // experimentational - still catches many unwanted patterns
+//        String withSuffix = extractSuffixBased(sources);
+//        if (!withSuffix.isEmpty()) {
+//        	return "{suffix based} " +withSuffix;
+//        }
+        
+        return "[nothing found]";
+    }
+
+	private String extractSuffixBased(AddressSources sources) {
+		for (String s : sources) {
+			Pattern p = Pattern.compile("\\w{3,}\\s+\\d{1,3}[^-]", Pattern.UNICODE_CHARACTER_CLASS);
+			Matcher m = p.matcher(s);
+			if (m.find()) {
+				return m.group();
+			}
+		}
+		return "";
+	}
+
+	private String extractPrefixBased(final AddressSources sources) {
+		final String[] CONTEXT_LEFT_KEYWORDS = {"ulica", "ulicy", "ul ", "ul.", "aleja", "alei", "al ", "al.", 
                 "os ", "os.", "osiedle", "osiedlu"};
         for (String s : sources) {
             for (String k : CONTEXT_LEFT_KEYWORDS) {
@@ -23,8 +49,8 @@ public class ContextBasedExtractor implements Extractor{
                 }
             }
         }
-        return "[nothing found]";
-    }
+        return "";
+	}
 
     private String normalizeTail(String s) {
         Map<String, String> MODAL_NORMAL = new HashMap<>();
