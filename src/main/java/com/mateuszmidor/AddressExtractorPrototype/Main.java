@@ -2,8 +2,11 @@ package com.mateuszmidor.AddressExtractorPrototype;
 
 import java.io.IOException;
 
-import com.mateuszmidor.AddressExtractorPrototype.contextbasedextractor.ContextBasedExtractor;
-import com.mateuszmidor.AddressExtractorPrototype.dictionarybasedextractor.DictionaryBasedExtractor;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.Extractor;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSample;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSamples;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.contextbased.ContextBasedExtractor;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.dictinarybased.DictionaryBasedExtractor;
 
 public class Main {
 
@@ -26,7 +29,7 @@ public class Main {
 
     private static void testDictionaryBasedExtractor(TestSamples samples) throws IOException {
         System.out.println("Dictionary based extractor");
-        Extractor e = new DictionaryBasedExtractor("data/krakow_streets.txt");
+        Extractor e = new DictionaryBasedExtractor("data/krakow_streets.txt", "data/krakow_districts.txt");
         testExtractor(samples, e);
     }
 
@@ -48,6 +51,7 @@ public class Main {
         }
         System.out.println("Num samples - " + samples.size());
         System.out.println("Num found - " + num_found);
+        System.out.println("Efficiency: " + 100 * num_found / samples.size() + "%");
         System.out.println();
     }
 
