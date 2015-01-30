@@ -103,405 +103,403 @@ expected=STARE PODGÓRZE
 source=Lubicz, Kraków, Polska
 source=FAJNE ŁADNE MIESZKANIE - KRAKÓW RAKOWICKA LUBICZ - TANIO! 22M2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia, mieszkanie jednopokojowe (kawalerka) w nowocześnie wyremontowanych oficynach kamienicy (róg Lubicz i Rakowickiej)Powierzchnia - ok 22 m2Pokój z łazienką i aneksem kuchennym.CENY:ŁĄCZNA CENA ZE WSZYSTKIMI OPŁATAMI (prąd, woda,
-expected= 
+expected=Lubicz
 # 22.
 source=Kraków, Polska
 source=Wynajmę dom 10pokoi z łazienką Kraków Śródmieście ul. Chałupnika Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę dom wolno stojący po kapitalnym remoncie w którym znajduje się 10 pokoi każdy z własną łazienką. Do dyspozycji najemców jest jedna kuchnia (parter) , jeden aneks kuchenny na piętrze oraz pralnia.Przed budynkiem możliwe parking. .Teren poses
-expected= 
+expected=Chałupnika
 # 23.
 source=Łobzowska 25, 31-139 Kraków, Polska
 source=Great, fully equipped safe apart, wifi, only 2 min. to Planty! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=(Wersja polska pod wersją angielską))One of the most sought after areas in Kraków!Lovely, fully furnished 1 bed apartment in the secure and much sough after location. Only 2 minutes walk to the Planty and just 4 minutes to the famous Main Squar
-expected= 
+expected=Łobzowska 25
 # 24.
 source=Kraków, Polska
 source=2 Pokojowe, 47,90m2 Kraków Kliny Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 47,90m2 wraz z pełnym wyposażeniem, gotowe do zamieszania od zaraz. Mieszkanie znajduje sie na 3 pietrze w 3 pietrowym budynku bez windy (nad nim użytkowy strych dla wszytskich)składa sie z:sypialnia - 12,1 m2 - wysoka za
-expected= 
+expected=Kliny
 # 25.
 source=Aleksandra Fredry 4, Kraków, Polska
 source=MIESZKANIE 56 m2 trzypokojowe (okolice galerii Bonarka) Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie w nowo wybudowanym apartamentowcu &quot;PANORAMA KRAKOWSKA&quot; przy ul. Fredry 4 w Krakowie.- Salon z aneksem kuchennym- 2 pokoje (nie wliczając salonu)- pomieszczenie gospodarcze- duża łazienka (z pralką)- duży przedpokój- m
-expected= 
+expected=Aleksandra Fredry 4
 # 26.
 source=Kraków, Polska
 source=Mieszkanie/lokal biurowy centrum, 100 m2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie 100 m2, Kraków Al. Krasińskiego OFERTA BEZ PROWIZJI DLA NAJEMCY   730 173 031 Przedmiotem wynajmu jest 3 pokojowe mieszkanie na 2 piętrze kamienicy zlokalizowanej na Starym Mieście w Krakowie. Nieruchomość po generalnym remoncie, odnowiona
-expected= 
+expected=Krasińskieg
 # 27.
 source=Zakopiańska, Kraków, Polska
 source=MIESZKANIE DO WYNAJECIA,KRAKÓW Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie położone przy ulicy Zakopiańskiej w Krakowie, vis a vis Centum Handlowego Zakopianka. Mieszkanie o powierzchni 56 m2,dwupokojowe, przestronne, słoneczne ,położone w cichym ,spokojnym,zadbanym bloku ,4 piętro, Mieszkanie częściowo u
-expected= 
+expected=Zakopiańska
 # 28.
 source=Ułanów 46, Kraków, Polska
 source=kawalerka na ul. Ułanów 46 (Olsza, Ugorek, Prądnik) od zaraz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia przytulna kawalerka po generalnym remoncie.Mieszkanie znajduje się na 8 piętrze przy ul. Ułanów 46. (Strona zachodnia, słoneczna)W bloku jest winda.Pod blokiem jest przystanek autobusowy (124,424,193)oraz 5 minut do przystanku
-expected= 
+expected=Ułanów 46
 # 29.
 source=Bolesława Chrobrego, 31-431 Kraków, Polska
 source=Mieszkanie ul. Chrobrego Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia 2 pokojowe mieszkanie o powierzchni 54m2 na niskim parterze w domu dwurodzinnym. (jeden pokój plus jeden połączony z kuchnią) Mieszkanie z osobnym wejściem i dużym gankiem w rewelacyjnej lokalizacji - ul. Chrobrego. W pobliżu Uniwersytet
-expected= 
+expected=Bolesława Chrobrego
 # 30.
 source=Kraków, Polska
 source=Kawalerka w Centrum 29 m2, OGRZEWANIE MIEJSKIE, po remoncie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=OKAZJA! Do wynajęcia, przytulne mieszkanie po generalnym remoncie o powierzchni 29 m2. Kawalerka mieści się na V piętrze w VII-piętrowej kamienicy przy al. Słowackiego , na przeciwko budynku Radio Kraków. Jest to zatem wyśmienita lokalizacja dla stud
-expected= 
+expected=Słowackiego
 # 31.
 source=Facimiech, Kraków, Polska
 source=Mieszkanie Kraków Prokocim 2-pokojowe 32m2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę, świeżo wykończone ze stanu deweloperskiego, 2-pokojowe mieszkanie o powierzchni 32 m2.położone w pobliżu parku w Prokocimiu. Piętro: 3/3. Mieszkanie składa się z pokoju z aneksem kuchennym oraz oddzielnego pokoju, łazienka z kabiną prysznico
-expected= 
+expected=Facimiech
 # 32.
 source=Mikołaja Zyblikiewicza, Kraków, Polska
 source=Poddasze u. Zyblikiewicza Kraków Flat for rent! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Flat for rent! Feel free to contact me by e-mailMieszkanie gotowe do zamieszkania od początku/połowy lutego. Wyremontowane poddasze na 4 piętrze kamiennicy.Salon z kuchnią + sypialnia, łazienka i przedpokój.Spokojne sąsiedztwo.Białe śc
-expected= 
+expected=Mikołaja Zyblikiewicza
 # 33.
 source=Bielany, Kraków, Polska
 source=Bardzo ładne jednopokojowe samodzielne w domu przy lesie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Jednopokojowe w dużym domu z oddzielnym wejściem. Mieszkanie znajduje się w cichej i spokojnej okolicy Lasu Bielańskiego. Możliwość parkowania .Mieszkanie nowe,kompletnie umeblowane,telewizor LCD,lodówka,płyta elektryczna do gotowania. Możliwość korz
-expected= 
+expected=Bielany
 # 34.
 source=Osiedle Na Lotnisku, Kraków, Polska
 source=Wynajmę śliczne mieszkanie Kraków os. Na Lotnisku (Bieńczyce) Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mam do zaoferowania super mieszkanie 2 pokojowe (40 m2) usytuowane na 7 piętrze w cichej oraz spokojnej okolicy - dużo zieleni. Mieszkanie po kapitalnym remoncie , umeblowane oraz wyposażone w sprzęt AGD. W łazience kabina prysznicowa która wyposażon
-expected= 
+expected=os. Na Lotnisku
 # 35.
 source=osiedle Piastów 65, 31-625 Kraków, Polska
 source=Wynajmę mieszkanie os. Piastów 65, wyposarzone, umeblowane Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie (kawalerkę) o pow 30 mkw w bloku na os Piastów 65 naprzeciw Urzędu skarbowego Kraków-Nowa Huta. Mieszkanie mieści się na 3 piętrze. Składa się z kuchni, pokoju, korytarza oraz łazienki. Mieszkanie oddane do użytku w 2008 roku. Zami
-expected= 
+expected=osiedle Piastów 65
 # 36.
 source=Józefa Łepkowskiego, Kraków, Polska
 source=Mieszkanie Kraków Prądnik Czerwony do wynajęcia Łepkowskiego 5 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 2-pokojowe z aneksem kuchennym o pow. 46 m2 w nowym budownictwie na ul. Józefa Łepkowskiego 5 (Prądnik Czerwony). W mieszkaniu jest ogrzewanie miejskie. Mieszkanie jest częściowo wyposażone i umeblowane. Kuchnia (kuchenka, lod
-expected= 
+expected=ul. Józefa Łepkowskiego 5
 # 37.
-source=Małopolskie
-Kraków
+source=Małopolskie, Kraków
 source=Ładne mieszkanie 1 pokojowe Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków Nowy Bieżanów ul.Aleksandry 3 mieszkanie na parterze w 4p budynku,pokój, kuchnia, łazienka, przedpokój po kapitalnym remoncie,umeblowane,wyposażone w sprzęt AGD pralka ,lodówka. Dobra komunikacja blisko  tramwaj, autobus
-expected= 
+expected=ul.Aleksandry 3
 # 38.
 source=Uśmiech, Kraków, Polska
 source=Blisko centrum Kawalerki Bonarka,Kamieńskiego,Mateczny,Tramwaj Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=-lokalizacja mieszkania - Kraków ulica Uśmiech  - Aby umówić się na oglądanie zadzwoń tel. 604 643 047 w godz. 8-20 pn.-ndz. -  4 kawalerki samodzielne do wyboru w luksusowym domu jednorodzinnym bez mieszkającego właściciela - wysoki standard.- peł
-expected= 
+expected=ulica Uśmiech
 # 39.
 source=św. Filipa, 31-150 Kraków, Polska
 source=Właściciel wynajmie 1 pok.mieszkanie ul. Św. Filipa Krk od zaraz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Właściciel wynajmie 1 pok. mieszkanie ul. Św. Filipa Kraków od zaraz ścisłe centrum, Pokój z kuchnią i łazienką ok 30m2 dla 2 osób (najchętniej pary) nieumeblowane lub umeblowane: lodówka, pralka, łózka; ogrzewanie własne na prąd; nowe okna, cena za
-expected= 
+expected=ul. św. Filipa
 # 40.
 source=Bolesława Czerwieńskiego, Kraków, Polska
 source=Nowe 30 m2 z antresolą i ogródkiem ul. Czerwieńskiego Krowodrza Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie o pow. 30 m2 z antresolą o pow. 7 m2. Mieszkanie jest bardzo wysokie:3,4 m2. W skład mieszkania wchodzi przedpokój, łazienka, salon z antresolą i aneks kuchenny. Do mieszkania przynależy bardzo duży ogródek o pow. 100 m2. Mies
-expected= 
+expected=ul. Bolesława Czerwieńskiego
 # 41.
 source=Kraków, Polska
 source=Kraków - Podgórze Duchackie - Polonijna Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków - Podgórze Duchackie - Polonijna Do wynajęcia od zaraz atrakcyjne, przestronne mieszkanie o powierzchni 50 m2, usytuowane na 2-gim piętrze w nowo wybudowanym wieżowcu - w nowej technologii. Teren w wokół budynku ogrodzony, monitorowany z miejs
-expected= 
+expected=Polonijna
 # 42.
 source=Bronowice, Kraków, Polska
 source=Garsoniera, Kraków, Bronowice od zaraz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia wyposażone mieszkanie/garsoniera, Bronowice, ul.Górna, wyposażone jest w: pralkę, lodówkę, łóżko, meble, dwupolowa płytę elektryczną, mikrofalówkę, czajnik, naczynia itd. Po remoncie w 2012r tzn: nowe okno, drzwi wejściowe, ogrzewanie po
-expected= 
+expected=ul.Górna
 # 43.
 source=Kraków
 source=Wynajmę kawalerkę ulica Aleja Pokoju Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę garsonierę 25 m położoną na wysokim parterze w bloku czteropiętrowym.Garsoniera umeblowana i wyposażona w podstawowy sprzęt. Bardzo dobra lokalizacja ulica Aleja Pokoju. Dobrze skomunikowana okolica z centrum miasta.Okolica spokojna i cic
-expected= 
+expected=ulica Aleja Pokoju
 # 44.
 source=Tuchowska, Kraków, Polska
 source=Mieszkanie na ul. Tuchowskiej blisko Bonarki Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków. Kurdwanów, ul. Tuchowska. Blisko Bonarki, nowych biurowców, 2 min do przystanku tramwajowego I autobusowego. Mieszkanie w nowym budownictwie, blok monitorowany, osiedle zamknięte. Powierzchnia mieszkania ok. 37 m2. Mieszkanie składa się z pok
-expected= 
+expected=ul. Tuchowska
 # 45.
 source=Spokojna, 32-552 Płaza, Polska
 source=Ładne mieszkaniw dwupokojowe - Kraków-Krowodrza-od właściciela Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę dwupokojowe mieszkanie o powierzchni 50m z balkonem w okolicach ul.Urzędniczej Mieszkanie jest częściowo umeblowane. Cena wynajmu zawiera czynsz.Mieszkanie wolne od zaraz.Zapraszam do oglądania-właściciel.
-expected= 
+expected=Spokojna
 # 46.
 source=Kraków, Polska
 source=2 Pokojowe, 47,90m2 Kraków Kliny Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 47,90m2 wraz z pełnym wyposażeniem, gotowe do zamieszania od zaraz. Mieszkanie znajduje sie na 3 pietrze w 3 pietrowym budynku bez windy (nad nim użytkowy strych dla wszytskich)składa sie z:sypialnia - 12,1 m2 - wysoka za
-expected= 
+expected=Kliny
 # 47.
 source=Czarnogórska 6, 30-638 Kraków, Polska
 source=Wynajmę 3 pokojowe mieszkanie (ogłoszenie prywatne) Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie świeżo odmalowane na parterze z ogródkiem, składające się z 3 niezależnych pokoi, przedpokoju, jasnej kuchni, łazienki i wc, w pobliżu przystanki autobusowe (300m) i tramwajowe (400m). Adres: ul. Czarnogórska, KrakówCena najmu: 1400 zł
-expected= 
+expected=Czarnogórska 6
 # 48.
 source=Aleksandra Fredry 4, Kraków, Polska
 source=MIESZKANIE 56 m2 trzypokojowe (okolice galerii Bonarka) Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie w nowo wybudowanym apartamentowcu &quot;PANORAMA KRAKOWSKA&quot; przy ul. Fredry 4 w Krakowie.- Salon z aneksem kuchennym- 2 pokoje (nie wliczając salonu)- pomieszczenie gospodarcze- duża łazienka (z pralką)- duży przedpokój- m
-expected= 
+expected=Aleksandra Fredry 4
 # 49.
 source=Lubostroń 22D, Kraków, Polska
 source=DWA POKOJE WYNAJMĘ LUBOSTROŃ RUCZAJ KRAKÓW Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=WYNAJMĘ DWA POKOJE Z ŁAZIEKĄ I KUCHNIĄ NA PARTERZE W SPOKOJNEJ OKOLICY PRZY ULICY LUBOSTROŃ W KRAKOWIE.MIESZKANIE CAŁKOWICIE URZĄDZONE DO ZAMIESZKANIA, AKTAUALNIE PO MALOWANIU. DWA POKOJE OSOBNE. CENA NAJMU 1200 ZŁ PUS OPŁATY ZA MEDIA PŁATNE DO AD
-expected= 
+expected=Lubostroń 22D
 # 50.
 source=Gwarków, 32-020 Wieliczka, Polska
 source=Mieszkanie 1-pokojowe, Duża Kawalerka- Wieliczka/Kraków Okazja Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam, Mam do wynajęcia, mieszkanie 1 pokojowe - kawalerka w pełni umeblowane w Wieliczce - Pokój - Osobna Kuchnia - Łazienka *Pralka - Przestronny korytarz - Parking - Mieszkanie umeblowane *lodówka, *kuchenka gazowa *tv Łącznie powierzchnia 45m2 Ba
-expected= 
+expected=Gwarków
 # 51.
 source=Kraków
 source=Wynajmę przytulne - Rakowicka wyposażone tanie w utrzymaniu Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kawalerka Rakowicka Kraków - mieszkanie w kameralnej kamienicy     Oferuję (bez pośredników) do wynajmu mieszkanie dostępne od zaraz w doskonałej lokalizacji (dzielnica Rakowice, Śródmieście, Olsza):   Przytulne, z nowym pełnym wyposażeniem: - poddas
-expected= 
+expected=Rakowicka
 # 52.
 source=Kraków, Polska
 source=BEZCZYNSZOWA garsoniera w Czyżynach (35m2) PROMOCJA!!! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=WYNAJEM OD STYCZNIA!!! W pobliżu: Centrum Handlowe &quot;M1&quot; i &quot;Plaza&quot;, Selgross, KRAKÓW ARENA, EXPO KRAKÓW, Jest to bezczynszowa garsoniera w Czyżynach (35m2) (na przeciwko hipermarketu M1). Mieszkanie mieści się w prywatnym bloku. W budynku jest pralnia
-expected= 
+expected=Czyżynach?
 # 53.
 source=Kraków, Polska
 source=BEZCZYNSZOWA garsoniera w Czyżynach (20m2) SUPER OFERTA!!! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=W pobliżu: Centrum Handlowe &quot;M1&quot; i &quot;Plaza&quot;, Selgross, KRAKÓW ARENA, EXPO KRAKÓW, Jest to bezczynszowa garsoniera w Czyżynach (20m2) (na przeciwko hipermarketu M1). Mieszkanie mieści się w prywatnym bloku. W budynku jest pralnia, z której można korzys
-expected= 
+expected=Czyżynach?
 # 54.
 source=Klemensa Janickiego, Kraków, Polska
 source=Wygodna Kawalerka na ulicy Janickiego - Kraków Wieczysta Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kawalerka mieści się przy ulicy Janickiego ma powierzchnię 26 m2, znajduje się na pierwszym piętrze w czteropiętrowym bloku. Lokalizacja mieszkania pozwala na szybkie dotarcie do miasta - 5 minut do przystanków na Alei Jana Pawła II - tramwajem można
-expected= 
+expected=Klemensa Janickiego
 # 55.
 source=Kraków, Polska
 source=Mieszkanie do wynajęcia - Kraków Nowy Bieżanów Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie w Krakowie na osiedlu Nowy Bieżanów. Trzy pokoje, kuchnia, łazienka, toaleta. Mieszkanie jest w pełni umeblowane, gotowe do zamieszkania. Więcej informacji pod numerem: 508017539.
-expected= 
+expected=Nowy Bieżanów
 # 56.
 source=Kraków, Polska
 source=W pełni umeblowane i wyposażone mieszkanie dwupokojowe Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=W pełni umeblowane i wyposażone mieszkanie dwupokojowe 46m² na drugim piętrze (z windą), do wynajęcia od zaraz.Pokoje:Duży pokój z aneksem kuchennym ok 25m²Sypialnia 9m²Łazienka 9m²Lokalizacja:Kraków os. Kurdwanów (5min od pętli tramw
-expected= 
+expected=os. Kurdwanów
 # 57.
 source=Miodowa, 31-055 Kraków, Polska
 source=1500 + rachunki za mieszkanie przy Miodowej ,Kraków-Kazimierz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Oferuję dwupokojowe mieszkanie przy ul.Miodowej do wynajęcia na rok lub dłużej, wszelkie kwestie do ustalenia na spotkaniu, mieszkanie obszerne i w genialnej lokalizacji,żółty pokój jako przechodni został zasłonięty meblościanką, jest możliwość przem
-expected= 
+expected=Miodowa
 # 58.
 source=Aleja Pokoju 48, 26-700 Zwoleń, Polska
 source=jasne i przytulne mieszkanie do wynajęcia, Al. Pokoju, Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia przytulne, ładne, gruntownie odremontowane, dwupokojowe mieszkanie (38m) przy Alei Pokoju. Mieszkanie w pełni umeblowane, bardzo dobry sprzęt AGD (lodówka, pralka). Składa się z dwóch pokoi, aneksu kuchennego i łazienki. Jasne, ustawne,
-expected= 
+expected=Aleja Pokoju 48
 # 59.
 source=Oskara Kolberga, Kraków, Polska
 source=Wynajmę kawalerkę w Krakowie. Kleparz. Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę garsonierę / kawalerkę w Krakowie przy ul Kolberga w Krakowie. (rejon ulic Długa, Krowoderska, Szlak). Odstępne 800zł + media (prąd, woda, śmieci, sprzątanie klatki schodowej) ~ 150-200zł/m-c wg. zużycia Mieszkanie umeblowane. Wymagana kaucja
-expected= 
+expected=Oskara Kolberga
 # 60.
 source=Kraków, Polska
 source=2 Pokojowe, 47,90m2 Kraków Kliny Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 47,90m2 wraz z pełnym wyposażeniem, gotowe do zamieszania od zaraz. Mieszkanie znajduje sie na 3 pietrze w 3 pietrowym budynku bez windy (nad nim użytkowy strych dla wszytskich)składa sie z:sypialnia - 12,1 m2 - wysoka za
-expected= 
+expected=Kliny
 # 61.
 source=Czarnogórska 6, 30-638 Kraków, Polska
 source=Wynajmę 3 pokojowe mieszkanie (ogłoszenie prywatne) Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie świeżo odmalowane na parterze z ogródkiem, składające się z 3 niezależnych pokoi, przedpokoju, jasnej kuchni, łazienki i wc, w pobliżu przystanki autobusowe (300m) i tramwajowe (400m). Adres: ul. Czarnogórska, KrakówCena najmu: 1400 zł
-expected= 
+expected=Czarnogórska 6
 # 62.
 source=Kraków
 source=Kawalerka 29 m2 w wysokim standardzie, ul. Czyżyńska Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie składające się z pokoju z aneksem kuchennym, przedpokoju i łazienki. Mieszkanie położone w pięciopiętrowym budynku z 2010 r., na ogrodzonym kameralnym osiedlu, na pierwszym piętrze (w środku budynku – bardzo ciepłe). W budynku
-expected= 
+expected=ul. Czyżyńska
 # 63.
 source=Przewóz 36B, 30-176 Kraków, Polska
 source=Mieszkanie Kraków Podgórze, ul. Przewóz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie przy ul. Przewóz 36B o powierzchni 43 m2, wolne od 01.03.2015.Mieszkanie składa się z holu/przedpokoju (7 m2), łazienki (4,5 m2), wydzielonej części kuchennej (5,5 m2) oraz pokoju dziennego z wydzieloną częścią sypialną i ja
-expected= 
+expected=ul. Przewóz 36B
 # 64.
 source=Modlniczka, Polska
 source=Zabierzów/Modlniczka -Apartment for rent mieszkanie do wynajęcia Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie w domu wielorodzinnym w Zabierzów/Modlniczka (ul.Prof Adama Rożańskiego). Mieszkanie 80m2 składa sie z 3 dużych pokoi (1 przejściowy), osobnej kuchni, przedpokoju i łazienki. Mieszkanie umeblowane i wyposażone, świeżo po grunt
-expected= 
+expected=ul.Prof Adama Rożańskiego
 # 65.
 source=Dąbska 20, Kraków, Polska
 source=NOWE Mieszkanie dwupokojowe Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia dwupokojowe nowe mieszkanie Kraków,Grzegórzki,Dąbie ul.Dąbska 20B. Mieszkanie z balkonem znajdujące się na pierwszym pietrze pięciopiętrowego bloku z 2014r. Mieszkanie jest umeblowane i wyposażone.Kuchnia oddzielna. Ogrzewanie centralne
-expected= 
+expected=Dąbska 20
 # 66.
 source=Łagiewniki, Kraków, Polska
 source=Wynajmę mieszkanie / garsonierę w Krakowie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Preferowana Pani nie paląca Mieszkanie: pokój z aneksem kuchennym, łazienką. Umeblowany. Wyposażony w podstawowe sprzęty gospodarstwa domowego (lodówka, pralka, płyta indukcyjna). 20 m.kw, w spokojnej okolicy (Kraków - Łagiewniki), blisko 4 centrów h
-expected= 
+expected=Łagiewniki
 # 67.
 source=Kraków
 source=Mieszkanie 3 pokojowe do wynajęcia os.Szkolne Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mam do zaoferowania do wynajecia  3 pokojowe mieszkanie  z lazienka oddzielnym wc ,kuchnia.Wielkosci 56m2 .Mieszkanie odswiezone.Widok z okien na zalew.Bliskosc przystankow mpk ,sklepow.Blok 4 pietrowy na os.Szkolnym..Kontakt 501 512655.
-expected= 
+expected=os.Szkolne
 # 68.
 source=Kraków, Polska
 source=REPREZENTACYJNY DOM OKOLICE UL.TYNIECKIEJ - KRAKÓW - WYNAJMĘ Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę piękny luksusowy dom wolnostojący w Krakowie - okolice ul. Tynieckiej o łącznej powierzchni 450 m2, z garażem na dwa duże samochody, położony na działce o powierzchni 1200 m2.Teren ogrodzony, z bramą wjazdową otwieraną automatycznie oraz br
-expected= 
+expected=ul. Tyniecka
 # 69.
 source=osiedle Piastów 65, 31-625 Kraków, Polska
 source=Piękne mieszkanie 54m2 - nowe bud. - os. Piastów 65, Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia przestronne piękne mieszkanie w nowym budownictwie o pow. 54 m2 + loggia 15 m2 z dwoma wejściami z salonu. Mieszkanie 2-pokojowe. Sypialnia + salon z aneksem kuchennym o pow. 33m2. Mieszkanie jest w pełni wyposażone ( kuchnia – lodówka z
-expected= 
+expected=osiedle Piastów 65
 # 70.
 source=Feliksa Konecznego 8, Kraków, Polska
 source=Mieszkanie 2-pokojowe ul. Feliksa Konecznego, Kraków (Żabiniec) Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Przedstawiam Państwu atrakcyjną ofertę wynajmu przestronnego mieszkania, położonego na ul. Konecznego w Krakowie. Mieszkanie o pow. 47,40m2 jest dwustronne i składa się z dużej widnej kuchni, sypialni, salonu z wyjściem na balkon, przedpokoju oraz ła
-expected= 
+expected=Feliksa Konecznego 8
 # 71.
 source=Wieliczka, Polska
 source=Mieszkanie 1-pokojowe/Kawalerka Wieliczka/Kraków dla studenta,os Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam, Pokój z aneksem kuchennym/ mieszkanie osobne wejście. Opis: - metraż: 18m2, - pokój z  aneksem kuchenny ( kuchnia gazowa, czajnik, mikrofalówka) - łazienka (dostęp do pralki) - Tv , - Internet ( Wi - Fi) -Parking za zamkniętą bramą Bardzo spok
-expected= 
+expected=Wieliczka
 # 72.
 source=Gwarków, 32-020 Wieliczka, Polska
 source=Mieszkanie 1-pokojowe, Duża Kawalerka- Wieliczka/Kraków Okazja Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam, Mam do wynajęcia, mieszkanie 1 pokojowe - kawalerka w pełni umeblowane w Wieliczce - Pokój - Osobna Kuchnia - Łazienka *Pralka - Przestronny korytarz - Parking - Mieszkanie umeblowane *lodówka, *kuchenka gazowa *tv Łącznie powierzchnia 45m2 Ba
-expected= 
+expected=Gwarków
 # 73.
 source=Kraków, Polska
 source=2 Pokojowe, 47,90m2 Kraków Kliny Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 47,90m2 wraz z pełnym wyposażeniem, gotowe do zamieszania od zaraz. Mieszkanie znajduje sie na 3 pietrze w 3 pietrowym budynku bez windy (nad nim użytkowy strych dla wszytskich)składa sie z:sypialnia - 12,1 m2 - wysoka za
-expected= 
+expected=Kliny
 # 74.
 source=Kraków, Polska
 source=Wynajmę dom 10pokoi z łazienką Kraków Śródmieście ul. Chałupnika Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę dom wolno stojący po kapitalnym remoncie w którym znajduje się 10 pokoi każdy z własną łazienką. Do dyspozycji najemców jest jedna kuchnia (parter) , jeden aneks kuchenny na piętrze oraz pralnia.Przed budynkiem możliwe parking. .Teren poses
-expected= 
+expected=ul. Chałupnika
 # 75.
 source=Małopolskie
 Kraków
 source=Kraków-Śródmieście trzypokojowe 1 piętro Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków-Śródmieście ul. Krowoderska od strony Plant; 57 m2 trzypokojowe 1 piętro łazienka kuchnia przedpokój; ogrzewanie centralne gazowe; częściowo umeblowane - trzy szafy wnękowe, dwa biurka; możliwość umeblowania na życzenie; Czynsz 1950 zł/m-c + m
-expected= 
+expected=ul. Krowoderska
 # 76.
 source=Pijarska 21, Kraków, Polska
 source=Apartment Kraków Stare Miasto, Florian Gate Pijarska street Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Located in Kraków, Apartment Krakow Florian Gate Pijarska offers a restaurant. This self-catering accommodation features free WiFi. The property is 0 metres from St. Florian's Gate and 300 metres from Galeria Krakowska.Accommodation will provide
-expected= 
+expected=Pijarska 21
 # 77.
 source=Drukarska, Kraków, Polska
 source=Mieszkanie, Kraków, Dębniki, Drukarska Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie dwupokojowe o powierzchni 52m2 usytuowane na 3 piętrze budynku przy ulicy Drukarskiej.Mieszkanie składa się z dwóch pokoi, oddzielnej kuchni, łazienki oraz przedpokoju.Czynsz najmu wynosi 1400 zł + 360 czynsz + prąd.Za doda
-expected= 
+expected=ulicy Drukarskiej
 # 78.
 source=Zagrody, Kraków, Polska
 source=Kawalerka z balkonem Kraków Dębniki Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=p { margin-bottom: 0.21cm; } Garsoniera korzystna lokalizacja centrum k. Ronda Grunwaldzkiego Posesja ogrodzona, parking dla rowerów-zadaszony. Dębniki ul Zagrody- I piętro W pełni umeblowana antresola wykończona w drewnie miejsca do spania dla 2 osó
-expected= 
+expected=ul Zagrody
 # 79.
 source=Mikołaja Kopernika 8, 33-332 Kraków, Polska
 source=Kraków, Kopernika - do wynajęcia / tha apartment for rent Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków, ul. Kopernika 8Bardzo przyjemne mieszkanie dla singla lub pary, duży balkon, ochrona.Cena za m-c 2500 zł /w tym czynsz, prad, ogrzewanie, woda, wifi, tv /.The apartment for rent - Cracow, Kopernika 8 StreetReally cosy apartment for
-expected= 
+expected=Mikołaja Kopernika 8
 # 80.
 source=osiedle Kombatantów, Kraków, Polska
 source=Mieszkanie do wynajęcia Kraków - Nowa Huta Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie dwupokojowe z balkonem, umeblowane. Mieszkanie znajduje się na os. Kombatantów - okolica przyjazna, czysta, z dużą ilością zieleni (blisko Kaufland, Polo). Łatwa i szybka komunikacja z centrum miasta.Studenci również mile widzian
-expected= 
+expected=os. Kombatantów
 # 81.
 source=Willowa 11, 32-080 Zabierzów, Polska
 source=Kawalerka Zabierzów - Studio apartment in Zabierzow Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=***for English scroll down*** Do wynajęcia kawalerka (21m2) z aneksem kuchennym i łazienką w budynku wielofunkcyjnym. Mieszkanie nowe, dopiero co oddane do użytku. Budynek solidnie ocieplony. Wyposażenie: sofa rozkładana IKEA Beddinge, szafa, komoda,
-expected= 
+expected=Willowa 11
 # 82.
 source=Kraków
 source=Do wynajęcia mieszkanie 1-pokojowe ! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 1-pokojowe36 m kw.Lokalizacja: os. Oswiecenia, Kraków (okolice Parku Wodnego, Multikina)w pobliżu przystanki komuniakcaji miejskiej.Mieszkanie jest umeblowane wraz ze sprzętem AGD.DOSTĘPNE OD ZARAZ !Czynsz za wyn
-expected= 
+expected=os. Oswiecenia
 # 83.
 source=Kraków
 source=Wynajmę mieszkanie - Kraków ul. Zawieyskiego 11 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie 2 pokojowe na 3 piętrze, kuchnia (kuchenka elektryczną z płytą ceramiczną i piekarnikiem, pralka, lodówka), przestronna łazienka z wanną i kabiną prysznicową. Dodatkowa garderoba.Lokalizacja - spokojne miejsce, w niedalekiej odległości c
-expected= 
+expected=ul. Zawieyskiego 11
 # 84.
 source=Kraków, Polska
 source=Wynajmę mieszkanie ruczaj, ul Chmieleniec, Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=2 pokojowe umeblowane i wyposażone w sprzęt AGD mieszkanie wynajmę. Salon z aneksem kuchennym, sypialnia, garderoba, łazienka z wanną /hydromasaż/, balkon, miejsce garażowe w garażu podziemnym. Słoneczne, na 3, ostatnim piętrze, budynek ogrodzony i m
-expected= 
+expected=ul Chmieleniec
 # 85.
 source=osiedle Słoneczne, Kraków, Polska
 source=Wynajmę umeblowaną garsonierę - Os. Słoneczne Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę umeblowaną garsonierę. Kraków - os. Słoneczne. Proszę o kontakt telefoniczny - 502380523
-expected= 
+expected=osiedle Słoneczne
 # 86.
 source=Dietla 56, 33-332 Kraków, Polska
 source=Przestronne mieszkanie w CENTRUM - ul. Dietla 56, Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie znajduje się przy ulicy Dietla 56 (pomiędzy przystankami tramwajowymi Stradom i Starowiślna). Usytuowane jest 10-15 minut od rynku głównego. Mieszkanie składa się z przedpokoju, łazienki oraz bardzo dużego pokoju. W wyposażeniu znajduje si
-expected= 
+expected=ul. Dietla 56
 # 87.
 source=osiedle Piastów 62, 30-001 Kraków, Polska
 source=Przestronne mieszkanie (2 pokoje) - Kraków, Mistrzejowice Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie 2-pokojowe w nowym budownictwie (blok z windą, monitorowany).   W mieszkaniu, poza dwoma przestronnymi pokojami, jasną kuchnią i łazienką, znajduje się także balkon i garderoba .   Jest umeblowane i wyposażone w podstawowe sprzęty
-expected= 
+expected=osiedle Piastów 62
 # 88.
 source=Lubostroń 22B, Kraków, Polska
 source=Mieszkanie do wynajęcia Kraków ul. Lubostroń - Ruczaj Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Lokalizacja: Ruczaj Ulica: Lubostroń 22b Opis Do wynajęcia mieszkanie 1-pokojowe o pow 32 m2 na ulicy Lubostroń 22b Osiedle Zielony Ruczaj . Mieszkanie ładne i zadbane. Pokój: rozkładane 2-osobowe łóżko, szafa na ubrania, szafki na książki, fotele, s
-expected= 
+expected=Lubostroń 22B
 # 89.
 source=osiedle Oświecenia 44, Kraków, Polska
 source=os. Oświecenia 2-pokolowe Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie 54 m2 na os. Oświecenia 44 , 2 pokojowe na 8 piętrze - ładny widok na Kraków . ( 2 pokoje , balkon , kuchnia , łazienka , przedpokój ) Blisko do Centrum Krokus , Aquaparku , Multikina w pobliżu Biedronka i inne sklepy . dobry dojazd . Cena
-expected= 
+expected=osiedle Oświecenia 44
 # 90.
 source=Uśmiech, Kraków, Polska
 source=Kawalerka nowa ok/ Mateczny, Bonarka, Kamieńskiego, Wielicka Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Ogłoszenie jest aktualne -- Nowe Kawalerki - Kraków ulica Uśmiech - Aby umówić się na oglądanie zadzwoń tel.604 643 047 w godz. 8-20 -osoba prywatna właściciel - rejon Rondo Mateczne, Galeria Handlowa Bonarka, Centrum Biznesowe k/ Bonarki , Wielicka,
-expected= 
+expected=ulica Uśmiech
 # 91.
 source=Prądnicka 99, Kraków, Polska
 source=Mieszkanie do wynajęcia 2 pokoje 45m2 Kraków Prądnicka Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie 2 pokojowe (45 m2) + piwnica z jasną osobną kuchnią, łazienka z oknem (po remoncie), balkonem i suszarnią.Mieszkanie na 2-gim piętrze w bloku 4 piętrowym przy ul. Prądnickiej naprzeciwko szpitala Jana Pawła II.Budynek
-expected= 
+expected=Prądnicka 99
 # 92.
 source=Kraków, Polska
 source=WYNAJMĘ Mieszkanie 2 pokoje - Kraków - Pychowice ul. Sodowa Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Mieszkanie częściowo umeblowane 51,5 m2, usytuowane na parterze z przynależnym ogródkiem w oknach rolety antywłamaniowe. Cicha, spokojna i zielona okolica Tynieckiego Parku Krajobrazowego w sąsiedztwie Skałek Twardowskiego, Zakrzówka. 5 min. pieszo d
-expected= 
+expected=ul. Sodowa
 # 93.
-source=Małopolskie
-Kraków
+source=Małopolskie, Kraków
 source=Wynajmę mieszkanie 2 pokoje duże, 60m2 - Kraków N-H Centrum B Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę mieszkanie zlokalizowane w Krakowie, Dzielnica Nowa Huta, os. Centrum B.Mieszkanie usytuowane jest na 3 piętrze w bloku 4 piętrowym w okolicach placu Centralnego.W bloku jest domofon.Osiedle z dużą ilością zieleni, placem zabaw, przed b
-expected= 
+expected=os. Centrum B
 # 94.
 source=Adama Bochenka 20, 30-693 Kraków, Polska
 source=Nowe mieszkanie Bochenka Kraków 37m od zaraz do wynajęcia tanio Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę od zaraz piękne, nowoczesne mieszkanie dla dwojga w Krakowie osiedle Piaski Nowe ul.Bochenka 20. Blok z 2013 roku składa sie z 8 pieter z winda. Mieszkanie mieści się na 3 piętrze- bardzo ładny widok Składa się z osobnej kuchni,dużego pokoju,
-expected= 
+expected=Adama Bochenka 20
 # 95.
 source=Kraków
 source=BEZCZYNSZOWA garsoniera w Czyżynach (25m2) PROMOCJA!!! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=WYNAJEM OD JUŻ!!! W pobliżu: Centrum Handlowe &quot;M1&quot; i &quot;Plaza&quot;, Selgross, KRAKÓW ARENA, EXPO KRAKÓW, Jest to bezczynszowa garsoniera (25m2) w Czyżynach (na przeciwko hipermarketu M1). Mieszkanie mieści się w prywatnym bloku. W budynku jest pralnia, z k
-expected= 
+expected=Czyżynach?
 # 96.
 source=Lubicz, Kraków, Polska
 source=FAJNE ŁADNE MIESZKANIE - KRAKÓW RAKOWICKA LUBICZ - TANIO! 22M2 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia, mieszkanie jednopokojowe (kawalerka) w nowocześnie wyremontowanych oficynach kamienicy (róg Lubicz i Rakowickiej)Powierzchnia - ok 22 m2Pokój z łazienką i aneksem kuchennym.CENY:ŁĄCZNA CENA ZE WSZYSTKIMI OPŁATAMI (prąd, woda,
-expected= 
+expected=Lubicz
 # 97.
 source=Kraków, Polska
 source=Wynajmę dom 10pokoi z łazienką Kraków Śródmieście ul. Chałupnika Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę dom wolno stojący po kapitalnym remoncie w którym znajduje się 10 pokoi każdy z własną łazienką. Do dyspozycji najemców jest jedna kuchnia (parter) , jeden aneks kuchenny na piętrze oraz pralnia.Przed budynkiem możliwe parking. .Teren poses
-expected= 
+expected=ul. Chałupnika
 # 98.
 source=Łobzowska 25, 31-139 Kraków, Polska
 source=Great, fully equipped safe apart, wifi, only 2 min. to Planty! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=(Wersja polska pod wersją angielską))One of the most sought after areas in Kraków!Lovely, fully furnished 1 bed apartment in the secure and much sough after location. Only 2 minutes walk to the Planty and just 4 minutes to the famous Main Squar
-expected= 
+expected=Łobzowska 25
 # 99.
 source=Kraków, Polska
 source=Kawalerka w Centrum 29 m2, OGRZEWANIE MIEJSKIE, po remoncie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=OKAZJA! Do wynajęcia, przytulne mieszkanie po generalnym remoncie o powierzchni 29 m2. Kawalerka mieści się na V piętrze w VII-piętrowej kamienicy przy al. Słowackiego , na przeciwko budynku Radio Kraków. Jest to zatem wyśmienita lokalizacja dla stud
-expected= 
+expected=al. Słowackiego
 # 100.
 source=Krzywda, Kraków, Polska
 source=Atrakcyjne 2-poz. mieszkanie Kraków Płaszów,ul. Krzywda od zaraz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę od zaraz, ładne i atrakcyjne 2-poziomowe mieszkanie w wyjątkowo cichej, ze starą zielenią okolicy Krakowa-Plaszowa. Stosunkowo nowe budownictwo, mieszkanie o powierzchni użytkowej 64m2 , kompozycja o ciekawej architekturze aranżacji wnętrz z
-expected= 
+expected=ul. Krzywda
 # 101.
 source=Kraków, Polska
 source=Do wynajęcia ładne mieszkanie 25m2 Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
