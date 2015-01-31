@@ -44,7 +44,7 @@ public class Main {
                 System.out.println();
             }
             
-            if (!address.startsWith("[")) {
+            if (sample.expected_result.contains(address)) {
                 num_found++;
             }
 
