@@ -6,9 +6,13 @@ import java.io.PrintWriter;
 import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 /**
  * 
@@ -60,7 +64,7 @@ public class TestSamples extends LinkedList<TestSample> {
             return line.substring(1, line.length());
         }
         if (line.contains("=")) {
-            return line.split("=")[1].toLowerCase();
+            return line.split("=")[1];
         }
         return "";
     }
@@ -94,5 +98,30 @@ public class TestSamples extends LinkedList<TestSample> {
         Set<TestSample> noDuplicates = new HashSet<TestSample>(this);
         this.clear();
         this.addAll(noDuplicates);
+    }
+    
+    /** 
+     * Removes test samples that DO NOT include provided regexp 
+     */
+    public void removeNotMatching(String regexp) {
+        Pattern p = Pattern.compile(regexp, Pattern.UNICODE_CHARACTER_CLASS);
+        Iterator<TestSample> it =  this.iterator();
+        while (it.hasNext()) {
+            TestSample sample = it.next();
+            if (!matchesPatter(sample, p)) {
+                it.remove();
+            }
+
+        }
+    }
+
+    private boolean matchesPatter(TestSample sample, Pattern p) {
+        for (String src : sample.sources) {
+            Matcher m = p.matcher(src);
+            if (m.find()) {
+                return true;
+            }
+        }
+        return false;
     }
 }
