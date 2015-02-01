@@ -34,6 +34,9 @@ public class DictionaryBasedExtractor implements Extractor {
 	}
 
 	@Override
+	/**
+	 * Returns lowercase address, if any found
+	 */
 	public String extract(final AddressSources sources) {
 		String street = extractUsingDict(sources, streets);
 		if (!street.isEmpty()) {
@@ -47,6 +50,13 @@ public class DictionaryBasedExtractor implements Extractor {
 		
 		return "[nothing found]";
 	}
+	
+	/**
+	 * Looks up dictionary keywords in sources
+	 * @param sources Where to look for address
+	 * @param dict Dictionary with known addresses to look up
+	 * @return Address from dictionary, along with number that follows (if any)
+	 */
 	private String extractUsingDict(final AddressSources sources,
 			final Dictionary dict) {
 		
