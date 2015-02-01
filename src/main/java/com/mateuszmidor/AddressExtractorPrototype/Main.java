@@ -1,12 +1,14 @@
 package com.mateuszmidor.AddressExtractorPrototype;
 
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Comparator;
 
 import com.mateuszmidor.AddressExtractorPrototype.extractor.Extractor;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSample;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSamples;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.contextbased.ContextBasedExtractor;
-import com.mateuszmidor.AddressExtractorPrototype.extractor.dictinarybased.DictionaryBasedExtractor;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.dictionarybased.DictionaryBasedExtractor;
 
 public class Main {
 
@@ -19,6 +21,26 @@ public class Main {
         TestSamples samples = TestSamples.fromFile("data/learning_samples_krakow.txt");
 //        testContextBasedExtractor(samples);
         testDictionaryBasedExtractor(samples);
+    }
+
+    private static void removeDuplicatesAndNonKrakowSamples(TestSamples samples) {
+        System.out.println(samples.size());
+        samples.removeDuplicates();
+        System.out.println(samples.size());
+        samples.removeNotMatching("Kraków|kraków|Krakow|krakow");
+        System.out.println(samples.size());
+        
+        // samples with empty "expected=" go last
+        Collections.sort(samples, new Comparator<TestSample>() {
+
+            @Override
+            public int compare(TestSample o1, TestSample o2) {
+                if (!(o1.expected_result.length() <2) && o2.expected_result.length() <2)
+                return -1;
+                else return 1;
+            }
+        });
+        samples.saveToFile("data/learning_samples_krakow_nodup.txt");
     }
 
     private static void testContextBasedExtractor(TestSamples samples) {
@@ -36,17 +58,18 @@ public class Main {
     private static void testExtractor(TestSamples samples, Extractor e) {
         int num_found = 0;
         for (TestSample sample : samples) {
-            String address = e.extract(sample.sources);
-
-            if ((printFailedExtractions) && (!sample.expected_result.contains(address))) {
-                System.out.println(sample);
-                System.out.println("Found address: " + address);
-                System.out.println();
-            }
+            String address = e.extract(sample.sources).toLowerCase();
+            String expected = sample.expected_result.toLowerCase();
             
-            if (sample.expected_result.contains(address)) {
+            if (expected.contains(address)) {
                 num_found++;
-            }
+            } else
+                if (printFailedExtractions) {
+                    System.out.println(sample);
+                    System.out.println("Found address: " + address);
+                    System.out.println();
+                }
+       
 
         }
         System.out.println("Num samples - " + samples.size());
