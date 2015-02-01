@@ -2,8 +2,11 @@ package com.mateuszmidor.AddressExtractorPrototype.extractor;
 
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * 
@@ -12,6 +15,7 @@ import java.util.Scanner;
  */
 public class TestSamples extends LinkedList<TestSample> {
     private static final long serialVersionUID = 2013396258330884057L;
+
 
     public static TestSamples fromFile(final String filename) throws IOException {
         TestSamples result = new TestSamples();
@@ -27,7 +31,7 @@ public class TestSamples extends LinkedList<TestSample> {
             String line = s.nextLine();
             String key = getKey(line);
             String value = getValue(line);
-            
+
             if (key.equals("source")) {
                 current.sources.addLast(value);
             } else if (key.equals("expected")) {
@@ -58,5 +62,13 @@ public class TestSamples extends LinkedList<TestSample> {
             return line.split("=")[1].toLowerCase();
         }
         return "";
+    }
+    
+    public void removeDuplicates() {
+        Collections.sort(this);
+        Set<TestSample> noDuplicates = new HashSet<TestSample>(this);
+        this.clear();
+        this.addAll(noDuplicates);
+        
     }
 }
