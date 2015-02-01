@@ -1292,7 +1292,7 @@ expected=Al.29 listopada104
 source=osiedle Dywizjonu 303 66, Kraków, Polska
 source=Mieszkanie 3-5 osobowe - osiedle Dywizjonu 303 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Witam,Do wynajęcia mieszkanie 3 pokojowe (2 osobne pokoje + salon), dla 3 do 5 osób (w zależności od umeblowania), łazienka, kuchnia jasna otwarta na salon, balkon. Osiedle ogrodzone i monitorowane. Mniejszy pokój około 12m2, ustawny wyposażony w s
-expected=osiedle Dywizjonu 303
+expected=osiedle Dywizjonu 303 66
 # 260.
 source=Aleksandra Lubomirskiego, Kraków, Polska
 source=ładne 2-pokojowe obok Galerii Krakowskiej Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
