@@ -15,7 +15,7 @@ public class ContextBasedExtractor implements Extractor{
     public String extract(final AddressSources sources) {
         String withPrefix = extractPrefixBased(sources);
         if (!withPrefix.isEmpty()) {
-        	return withPrefix;
+        	return withPrefix.toLowerCase();
         }
         
         // experimentational - still catches many unwanted patterns
@@ -43,7 +43,7 @@ public class ContextBasedExtractor implements Extractor{
                 "os ", "os.", "osiedle", "osiedlu"};
         for (String s : sources) {
             for (String k : CONTEXT_LEFT_KEYWORDS) {
-                String lowercase_source = s.toLowerCase();
+                String lowercase_source = s;//.toLowerCase();
                 if (lowercase_source.contains(k)) {
                     return normalizeTail(extractAddressAfterKeyword(lowercase_source, k));
                 }
@@ -67,13 +67,15 @@ public class ContextBasedExtractor implements Extractor{
     private String replace(String s, String key, String value) {
         return s.replaceAll(key, value);
     }
-
+ 
     private String extractAddressAfterKeyword(String lowercase_source, String k) {
         k = k.replace(".", "\\."); // escape special regex character - period
-        Pattern p = Pattern.compile( k + "(\\w{1,4}\\.)?( |\\w{2,}|\\d)+", Pattern.UNICODE_CHARACTER_CLASS);
+        Pattern p = Pattern.compile( k + "((\\s{0,3}[A-Z]\\w+)+(\\s\\d+)?)", Pattern.UNICODE_CHARACTER_CLASS);
+//        Pattern p = Pattern.compile( k + "(\\s{0,3}\\w{2,})", Pattern.UNICODE_CHARACTER_CLASS);
+//        Pattern p = Pattern.compile( k + "((\\w{1,4}\\.)?( |\\w{2,}|\\d)+)", Pattern.UNICODE_CHARACTER_CLASS);
         Matcher m = p.matcher(lowercase_source);
         if (m.find()) {
-            return m.group().trim();
+            return m.group(1).trim();
         }
         
         return "[nothing matched]";
