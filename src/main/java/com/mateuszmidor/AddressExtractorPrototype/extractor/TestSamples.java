@@ -78,16 +78,14 @@ public class TestSamples extends LinkedList<TestSample> {
     }
     
     private void printSamples(PrintWriter pw) {
-        int i = 1;
         for (TestSample s : this) {
-            pw.println("# " + i + ".");
+            pw.println("# ");
             for (String src : s.sources) {
                 pw.println("source=" + src);
             }
             pw.println("expected=" + s.expected_result);
-            i++;
         }
-        
+        pw.println("# Total samples: " + this.size());
     }
 
     /**
