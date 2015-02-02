@@ -34,5 +34,11 @@ public class Dictionary extends LinkedList<String> {
 			}
 		}
 	}
+	
+	public void print() {
+		for (String key : this) {
+			System.out.println(key);
+		}
+	}
 
 }
