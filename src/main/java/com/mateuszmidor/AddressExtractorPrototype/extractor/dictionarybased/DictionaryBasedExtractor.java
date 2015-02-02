@@ -84,11 +84,12 @@ public class DictionaryBasedExtractor implements Extractor {
             source = source.toLowerCase();
             for (String key : dict) {
                 if (source.contains(key)) {
-                    String OPTIONAL_NUMBER = "([ ]{0,5}\\d{1,5})?";
-                    Pattern p = Pattern.compile("(\\W|^|\\s)("+key + OPTIONAL_NUMBER+")(\\W|$|\\s)", Pattern.UNICODE_CHARACTER_CLASS);
+                	
+                    String OPTIONAL_NUMBER = "(?:[ ]{0,5}\\d{1,5})?";
+                    Pattern p = Pattern.compile("\\b"+key + OPTIONAL_NUMBER+"\\b", Pattern.UNICODE_CHARACTER_CLASS);
                     Matcher m = p.matcher(source);
                     if (m.find()) {
-                        return m.group(2);
+                        return m.group();
                     }
                 }
 
