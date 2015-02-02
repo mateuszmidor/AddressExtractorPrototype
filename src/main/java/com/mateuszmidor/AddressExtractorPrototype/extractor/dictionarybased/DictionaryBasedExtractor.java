@@ -85,7 +85,7 @@ public class DictionaryBasedExtractor implements Extractor {
             for (String key : dict) {
                 if (source.contains(key)) {
                 	
-                    String OPTIONAL_NUMBER = "(?:[ ]{0,5}\\d{1,5})?";
+                    String OPTIONAL_NUMBER = "(?:[ ]{0,5}\\d{1,5}\\w?)?"; // number can be followed by letter 
                     Pattern p = Pattern.compile("\\b"+key + OPTIONAL_NUMBER+"\\b", Pattern.UNICODE_CHARACTER_CLASS);
                     Matcher m = p.matcher(source);
                     if (m.find()) {
