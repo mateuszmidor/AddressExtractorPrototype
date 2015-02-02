@@ -27,7 +27,7 @@ expected=Nowy Bieżanów
 source=Warmijska, Kraków, Polska
 source=Dwupokojowe mieszkanie przy UP (boczna ul. Lea, blisko AGH)! Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia mieszkanie dwupokojowe przy ul. Warmijskiej. Mieszkanie znajduje się na 8 piętrze (dwie windy, z balkonu widać cały Kraków), składa się z dwóch pokoi (jeden ok. 12m2, drugi ok. 20 m2), jasnej kuchni, przedpokoju, łazienki oraz balkonu. M
-expected=Warmijska
+expected=Warmijska|Lea
 # 
 source=Kremerowska, Kraków, Polska
 source=Mieszkanie Kraków stare-miasto Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -942,7 +942,7 @@ expected=Karmelicka
 source=Dąbska 20, Kraków, Polska
 source=NOWE Mieszkanie dwupokojowe Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Do wynajęcia dwupokojowe nowe mieszkanie Kraków,Grzegórzki,Dąbie ul.Dąbska 20B. Mieszkanie z balkonem znajdujące się na pierwszym pietrze pięciopiętrowego bloku z 2014r. Mieszkanie jest umeblowane i wyposażone.Kuchnia oddzielna. Ogrzewanie centralne
-expected=Dąbska 20
+expected=Dąbska 20B
 # 
 source=Budynek I, Sołtysowska 12I, 31-589 Kraków, Polska
 source=MIESZKANIE DO WYNAJĘCIA+miejsce post., ul.SOŁTYSOWSKA, Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -1192,7 +1192,7 @@ expected=Kolberga
 source=Obozowa 46A, Kraków, Polska
 source=Ruczaj-Mieszkanie 1 pokojowe 1150+koszt zużycia mediów ok.100 zł Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Moliwość oglądania również w niedziele.---------------------------------------------------Obozowa 46aKoszt łączny to 1150 + koszt zużytych mediów W ostatnich latach średnia miesięczna przy 1 osobie mieszkającej nie przekraczała 100 złotych.
-expected=Obozowa 46
+expected=Obozowa 46A
 # 
 source=Ułanów, Kraków, Polska
 source=Kawalerka Centrum po remoncie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -1312,7 +1312,7 @@ expected=Łukasza Cieplińskiego
 source=Kraków, Małopolskie, Dębniki
 source=Mieszkanie do wynajęcia Kraków
 source=LOKALIZACJA:Oferuje Państwu do wynajęcia wygodne i funkcjonalne mieszkanie w spokojnej, dobrze skomunikowanej okolicy przy ulicy Ceglarskiej w dzielnicy Dębniki, doskonałe połączenie z centrum miast...
-expected=ulicy Ceglarskiej
+expected=Ceglarska
 # 
 source=Kraków, Małopolskie, Stare Miasto
 source=***Salwator, ul. Kościuszki, apartament z widokiem na Wawel, 150 m2***
@@ -1457,7 +1457,7 @@ expected=ulicy Wyki
 source=Kraków, Małopolskie, Krowodrza
 source=2 pok. mieszkanie 69m2, Radzikowskiego, Rydla, Azory Bronowice
 source=2 pok. mieszkanie 69m2, Radzikowskiego, Rydla, Azory BronowiceMieszkanie składa się z 2 pokojów, jeden z aneksem kuchennym, garderoba i łazienka.Mieści się na parterze w 4 piętrowym bloku.Na pos...
-expected=Radzikowskiego
+expected=Radzikowskiego|Rydla
 # 
 source=Kraków, Polska
 source=Mieszkanie do wynajęcia Kraków - Kliny ul. Geremka Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
