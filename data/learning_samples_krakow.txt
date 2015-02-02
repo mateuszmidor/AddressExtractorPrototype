@@ -158,21 +158,11 @@ source=Kraków, Polska
 source=ŚLIWKOWA obok Philip Morris MIESZKANIE z parkingiem do wynajęcia Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Kraków, Nowa Huta - Czyżyny, ul. Śliwkowa Do wynajęcia jednopokojowe mieszkanie o powierzchni 41m2 położone na pierwszym piętrze w 4-piętrowym budynku z lat 90-tych, budynek ogrodzony - brama na pilota z miejscem parkingowym. Mieszkanie składa się z
 expected=ul. Śliwkowa 
-# 33.
-source=Częstochowa, Polska
-source=Zamienie mieszkanie 2pokoje w Częstochowie na Kraków Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
-source=Witam, Oferuję zamianę 2 pokojowego mieszkania w centrum Częstochowy na mieszkanie o podobnej wartości w Krakowie. Mieszkanie jest umeblowane, posiada dwa pokoje, wyposażoną kuchnię i łazienkę. Mieszkanie znajduje się na 6 piętrze w bloku. Przynależy
-expected=[nie krakow]
 # 34.
 source=Krzywda, Kraków, Polska
 source=Atrakcyjne 2-poz. mieszkanie Kraków Płaszów,ul. Krzywda od zaraz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę od zaraz, ładne i atrakcyjne 2-poziomowe mieszkanie w wyjątkowo cichej, ze starą zielenią okolicy Krakowa-Plaszowa. Stosunkowo nowe budownictwo, mieszkanie o powierzchni użytkowej 64m2 , kompozycja o ciekawej architekturze aranżacji wnętrz z
 expected=ul. Krzywda
-# 35.
-source=Gwarków, 32-020 Wieliczka, Polska
-source=Mieszkanie 1-pokojowe, Duża Kawalerka- Wieliczka/Kraków Okazja Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
-source=Witam, Mam do wynajęcia, mieszkanie 1 pokojowe - kawalerka w pełni umeblowane w Wieliczce - Pokój - Osobna Kuchnia - Łazienka *Pralka - Przestronny korytarz - Parking - Mieszkanie umeblowane *lodówka, *kuchenka gazowa *tv Łącznie powierzchnia 45m2 Ba
-expected=Gwarków
 # 36.
 source=Kraków, Polska
 source=Do wynajęcia mieszkanie 2-pokojowe Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -533,11 +523,6 @@ source=Łagiewniki, Kraków, Polska
 source=Wynajmę mieszkanie / garsonierę w Krakowie Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Preferowana Pani nie paląca Mieszkanie: pokój z aneksem kuchennym, łazienką. Umeblowany. Wyposażony w podstawowe sprzęty gospodarstwa domowego (lodówka, pralka, płyta indukcyjna). 20 m.kw, w spokojnej okolicy (Kraków - Łagiewniki), blisko 4 centrów h
 expected=Łagiewniki
-# 108.
-source=Wieliczka, Polska
-source=Mieszkanie 1-pokojowe/Kawalerka Wieliczka/Kraków dla studenta,os Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
-source=Witam, Pokój z aneksem kuchennym/ mieszkanie osobne wejście. Opis: - metraż: 18m2, - pokój z  aneksem kuchenny ( kuchnia gazowa, czajnik, mikrofalówka) - łazienka (dostęp do pralki) - Tv , - Internet ( Wi - Fi) -Parking za zamkniętą bramą Bardzo spok
-expected=Wieliczka
 # 109.
 source=Kraków
 source=CENTRUM dwa pokoje z balkonem Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -868,11 +853,6 @@ source=Bratysławska, Kraków, Polska
 source=Mieszkanie 1 pokojowe do wynajęcia Kraków Bratysławska Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Komfortowa, jasna, umeblowana kawalerka o pow. 36,6 m2 na 7 piętrze   w   16 kondygnacyjnym apartamentowcu z 2003 roku.     Budynek ogrodzony, z windą, domofonem, całodobową ochroną i monitoringiem. Mieszkanie składa się z przedpokoju, pokoju z aneks
 expected=Bratysławska
-# 175.
-source=Żelechowskich, Polska
-source=Mieszkanie do wynajęcia KRAKÓW Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
-source=Wynajmę całe poddasze mieszkalne domu jednorodzinnego w Rzeszotarach (gmina Świątniki Górne, 20 minut od Krakowa),o pow. 90m2 całkowitej. Mieszkanie na poddaszu posiada osobne wejście,ogrzewanie gazowe centralne. Dom znajduję się 15m od przystanku MP
-expected=Żelechowskich
 # 176.
 source=Księdza Józefa Meiera 20A, Kraków, Polska
 source=Przytulna, umeblowana kawalerka dla 1-2 osób Kraków, ul. Meiera. Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -1167,7 +1147,7 @@ expected=Ulica Dworcowa
 source=Kraków, Małopolskie, Stare Miasto
 source=2 pok. 59 m2, Św. Wawrzyńca, Starowiślna, Krakowska Kazimierz Mi
 source=2 pok. 59 m2, Św. Wawrzyńca, Starowiślna, Krakowska KazimierzMieszkanie składa się z 2 oddzielnych  pokoi, osobnej kuchni, łazienka.Mieszkanie jest w idealnym stanie technicznym i wizualnym.W pe...
-expected=Św. Wawrzyńca
+expected=Św. Wawrzyńca|Starowiślna|Krakowska
 # 235.
 source=Karmelicka, Kraków, Polska
 source=Do wynajęcia lokal biurowy ul. Karmelicka - wysoki standard Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
@@ -1272,7 +1252,7 @@ expected=Kraków
 source=1, 31-952 Kraków, Polska
 source=Jasne, 2-pokojowe, jasna kuchn., nowa łaz., doskonały dojazd Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę jasne, ustawne, 2-pokojowe mieszkanie na 1-wszym pietrze, na osiedlu Słonecznym, 450m od pl. Centralnego. Jasna kuchnia, nowa łazienka z kabiną prysznicową. 2 pokoje z widokiem na Park Ratuszowy. Powierzchnia mieszkania 50m2. Doskonały dojazd
-expected=osiedlu Słonecznym
+expected=Słoneczne
 # 256.
 source=Koszykarska 31, Kraków, Polska
 source=Mieszkanie do wynajecia Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
