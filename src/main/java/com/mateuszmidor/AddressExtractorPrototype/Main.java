@@ -9,6 +9,8 @@ import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSample;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSamples;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.contextbased.ContextBasedExtractor;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.dictionarybased.DictionaryBasedExtractor;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased.ExtractionResults;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased.RankBasedExtractor;
 
 public class Main {
 
@@ -18,9 +20,17 @@ public class Main {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
+//        TestSamples samples = TestSamples.fromFile("data/non_working_samples.txt");
         TestSamples samples = TestSamples.fromFile("data/learning_samples_krakow.txt");
 //        testContextBasedExtractor(samples);
-        testDictionaryBasedExtractor(samples);
+//        testDictionaryBasedExtractor(samples);
+        testRankBasedExtractor(samples);
+    }
+
+    private static void testRankBasedExtractor(TestSamples samples) {
+        System.out.println("Rank based extractor");
+        Extractor e = new RankBasedExtractor("data/krakow_streets.txt", "data/krakow_districts.txt");
+        testExtractor(samples, e);
     }
 
     private static void removeDuplicatesAndNonKrakowSamples(TestSamples samples) {
@@ -65,6 +75,7 @@ public class Main {
                 num_found++;
             } else
                 if (printFailedExtractions) {
+                    ExtractionResults.instance.printOut();
                     System.out.println(sample);
                     System.out.println("Found address: " + address);
                     System.out.println();
