@@ -15,7 +15,7 @@ class CorrectnessComparator implements Comparator<ExtractionResult> {
     @Override
     public int compare(ExtractionResult a, ExtractionResult b) {
 
-        return new Integer(b.correctnessRank).compareTo(a.correctnessRank);
+        return new Integer(b.correctnessRank + b.precisionRank).compareTo(a.correctnessRank + a.precisionRank);
     }
 }
 
@@ -30,7 +30,7 @@ public class ExtractionResults extends LinkedList<ExtractionResult>{
 	
 	public void printOut() {
 	    for (ExtractionResult r : this) {
-	        System.out.print(r.address + "["+r.correctnessRank+"],");
+	        System.out.format("%s[c:%d,p:%d] ", r.address, r.correctnessRank, r.precisionRank);
 	    }
 	    System.out.println();
 	}

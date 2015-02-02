@@ -2,6 +2,7 @@ package com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased;
 
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.text.Normalizer;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -38,6 +39,19 @@ public class Dictionary extends LinkedList<String> {
     public void generateMutations() {
         generateSurnames();
         generateDeclinations();
+        generateWithNoPolishLetters();
+    }
+
+    private void generateWithNoPolishLetters() {
+        List<String> mutations = new LinkedList<String>();
+
+        for (String s : this) {
+            String noPolishChars = Normalizer.normalize(s, Normalizer.Form.NFD).replaceAll("\\p{M}", "");
+            if (!noPolishChars.equals(s)) {
+                mutations.add(noPolishChars);
+            }
+        }
+        this.addAll(mutations);
     }
 
     private void generateSurnames() {
@@ -53,22 +67,37 @@ public class Dictionary extends LinkedList<String> {
         this.addAll(mutations);
     }
 
-    private void generateDeclinations() {
+    public static String normalizeForm(String s) {
         Map<String, String> MODAL_NORMAL = new HashMap<>();
-        MODAL_NORMAL.put("ska", "skiej"); // krakowskiej
-        MODAL_NORMAL.put("cka", "ckiej"); // tynieckiej
-        MODAL_NORMAL.put("ny", "nach"); // czyżynach
-        MODAL_NORMAL.put("czne", "cznym"); // słonecznym
+        MODAL_NORMAL.put("skiej", "ska"); // krakowskiej
+        MODAL_NORMAL.put("ckiej", "cka"); // tynieckiej
+        MODAL_NORMAL.put("nach", "ny"); // czyżynach
+        MODAL_NORMAL.put("cznym", "czne"); // słonecznym
+        
+        s = s.toLowerCase();
+        for (Entry<String, String> modal : MODAL_NORMAL.entrySet()) {
+            if (s.contains(modal.getKey())){
+                return s.replaceAll(modal.getKey(), modal.getValue());
+            }
+        }
+        return s;
+    }
+    private void generateDeclinations() {
+        Map<String, String> NORMAL_MODAL = new HashMap<>();
+        NORMAL_MODAL.put("ska", "skiej"); // krakowskiej
+        NORMAL_MODAL.put("cka", "ckiej"); // tynieckiej
+        NORMAL_MODAL.put("ny", "nach"); // czyżynach
+        NORMAL_MODAL.put("czne", "cznym"); // słonecznym
         List<String> mutations = new LinkedList<String>();
 
         for (String s : this) {
-            for (Entry<String, String> modal : MODAL_NORMAL.entrySet()) {
+            for (Entry<String, String> modal : NORMAL_MODAL.entrySet()) {
                 if (s.endsWith(modal.getKey())) {
                     mutations.add(s.replaceAll(modal.getKey(), modal.getValue()));
                 }
             }
         }
-
+        
         this.addAll(mutations);
     }
 

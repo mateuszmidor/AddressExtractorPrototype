@@ -9,12 +9,16 @@ import com.mateuszmidor.AddressExtractorPrototype.extractor.Extractor;
 public class RankBasedExtractor implements Extractor {
     private Dictionary streets = new Dictionary();
     private Dictionary districts = new Dictionary();
+    private Dictionary cities = new Dictionary();
 
     public RankBasedExtractor(String streets_filename, final String districts_filename) {
         streets = Dictionary.fromFile(streets_filename);
         streets.generateMutations();
         districts = Dictionary.fromFile(districts_filename);
         districts.generateMutations();
+        cities.add("kraków");
+        cities.add("wieliczka");
+        cities.generateMutations();
     }
 
     @Override
@@ -23,19 +27,20 @@ public class RankBasedExtractor implements Extractor {
 
         extractUsingDict(sources, streets, results);
         extractUsingDict(sources, districts, results);
+        extractUsingDict(sources, cities, results);
         
         RankEvaluator prefixEvaluator = new RankPrefix();
-//        prefixEvaluator.evaluate(results);
+        prefixEvaluator.evaluate(results);
         
         RankEvaluator suffixEvaluator = new RankSuffix();
-//        suffixEvaluator.evaluate(results);
+        suffixEvaluator.evaluate(results);
         
         RankEvaluator capitalEvaluator = new RankCapitalLetter();
         capitalEvaluator.evaluate(results);
         
         results.sortByCorrectness();
         if (results.size() > 0) {
-            return results.getFirst().address;
+            return Dictionary.normalizeForm(results.getFirst().address);
         }
 
         return "[nothing found]";
