@@ -13,6 +13,7 @@ public class RankSuffix implements RankEvaluator {
             Matcher m = p.matcher(r.address);
             if (m.find()) {
                 r.correctnessRank++;
+                r.precisionRank++; // street number is a level up precision
             }
 
         }
