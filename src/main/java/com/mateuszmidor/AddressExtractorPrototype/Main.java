@@ -25,11 +25,12 @@ public class Main {
 //        testContextBasedExtractor(samples);
 //        testDictionaryBasedExtractor(samples);
         testRankBasedExtractor(samples);
+   
     }
 
     private static void testRankBasedExtractor(TestSamples samples) {
         System.out.println("Rank based extractor");
-        Extractor e = new RankBasedExtractor("data/cities.txt", "data/krakow_streets.txt", "data/krakow_districts.txt");
+        Extractor e = new RankBasedExtractor("data/krakow_streets.txt", "data/krakow_districts.txt", "data/cities.txt");
         testExtractor(samples, e);
     }
 
