@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class RankPrefix implements RankEvaluator {
 
     @Override
-    public void evaluate(ExtractionResults results) {
+    public void evaluate(AddressCandidates results) {
         final String[] HI_PRECISION_PREFIX = {"ulica", "ulicy", "ul ", "ul.", "aleja", "alei", "al ", "al."};
         final String[] MEDIUM_PRECISION_PREFIX = {"os ", "os.", "osiedle", "osiedlu"};
         final String[] LOW_PRECISION_PREFIX = {"przy", "na", "obok", "w"};
@@ -15,12 +15,16 @@ public class RankPrefix implements RankEvaluator {
         rankByPrefix(results, LOW_PRECISION_PREFIX, 0);
     }
 
-    private void rankByPrefix(ExtractionResults results, final String[] prefixes, int precision) {
-        for (ExtractionResult r : results) {
+    private void rankByPrefix(AddressCandidates results, final String[] prefixes, int precision) {
+        for (AddressCandidate r : results) {
             for (String prefix : prefixes) {
-                String k = prefix.replace(".", "\\."); // escape special regex character - period
-                Pattern p = Pattern.compile("\\b"+ k + "\\s{0,3}"+r.address, Pattern.UNICODE_CHARACTER_CLASS | Pattern.CASE_INSENSITIVE);
-                Matcher m = p.matcher(r.context);
+            	prefix = prefix.replace(".", "\\."); // escape special regex character - period
+            	
+            	// prefix space address, eg. "ul. Wielicka"
+                Pattern p = Pattern.compile("\\b"+ prefix + "\\s{0,3}"+ r.address, 
+                		Pattern.UNICODE_CHARACTER_CLASS | Pattern.CASE_INSENSITIVE);
+                
+                Matcher m = p.matcher(r.source);
                 if (m.find()) {
                     r.correctnessRank++;
                     r.precisionRank+= precision;

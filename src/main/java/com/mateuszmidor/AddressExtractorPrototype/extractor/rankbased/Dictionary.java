@@ -4,27 +4,34 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 import java.util.Map.Entry;
+import java.util.Scanner;
 
+/**
+ * This class represents list of known addresses.
+ * It allows to load from file.
+ * It also allows to generate mutations of address, that can be found in source texts
+ * It enforces that entries added with "add" method are always lowercase.
+ * @author m.midor
+ *
+ */
 public class Dictionary extends LinkedList<String> {
 
     private static final long serialVersionUID = 1018433824638220292L;
 
     public static Dictionary fromFile(String filename) {
 
-        Dictionary result = new Dictionary();
+        Dictionary dictionary = new Dictionary();
         try (Scanner s = new Scanner(Paths.get(filename))) {
-            result.readLines(s);
+            dictionary.readLines(s);
         } catch (IOException e) {
             System.out.println("Could not load dictionary " + filename);
         }
 
-        return result;
+        return dictionary;
     }
 
     private void readLines(Scanner s) {
@@ -67,7 +74,7 @@ public class Dictionary extends LinkedList<String> {
         this.addAll(mutations);
     }
 
-    public static String normalizeForm(String s) {
+    public static String removeDeclination(String s) {
         Map<String, String> MODAL_NORMAL = new HashMap<>();
         MODAL_NORMAL.put("skiej", "ska"); // krakowskiej
         MODAL_NORMAL.put("ckiej", "cka"); // tynieckiej
@@ -76,12 +83,15 @@ public class Dictionary extends LinkedList<String> {
         
         s = s.toLowerCase();
         for (Entry<String, String> modal : MODAL_NORMAL.entrySet()) {
-            if (s.contains(modal.getKey())){
-                return s.replaceAll(modal.getKey(), modal.getValue());
+            String key = modal.getKey();
+			if (s.contains(key)){
+                String value = modal.getValue();
+				return s.replaceAll(key, value);
             }
         }
         return s;
     }
+    
     private void generateDeclinations() {
         Map<String, String> NORMAL_MODAL = new HashMap<>();
         NORMAL_MODAL.put("ska", "skiej"); // krakowskiej
@@ -92,8 +102,10 @@ public class Dictionary extends LinkedList<String> {
 
         for (String s : this) {
             for (Entry<String, String> modal : NORMAL_MODAL.entrySet()) {
-                if (s.endsWith(modal.getKey())) {
-                    mutations.add(s.replaceAll(modal.getKey(), modal.getValue()));
+                String key = modal.getKey();
+				if (s.endsWith(key)) {
+                    String value = modal.getValue();
+					mutations.add(s.replaceAll(key, value));
                 }
             }
         }
@@ -102,9 +114,14 @@ public class Dictionary extends LinkedList<String> {
     }
 
     public void print() {
-        for (String key : this) {
-            System.out.println(key);
+        for (String entry : this) {
+            System.out.println(entry);
         }
     }
+
+	@Override
+	public boolean add(String s) {
+		return super.add(s.toLowerCase());
+	}
 
 }

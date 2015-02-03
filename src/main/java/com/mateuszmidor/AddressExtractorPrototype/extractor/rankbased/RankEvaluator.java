@@ -8,5 +8,5 @@ package com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased;
  *
  */
 public interface RankEvaluator {
-	void evaluate(ExtractionResults r);
+	void evaluate(AddressCandidates r);
 }

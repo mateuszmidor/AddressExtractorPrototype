@@ -9,7 +9,7 @@ import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSample;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.TestSamples;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.contextbased.ContextBasedExtractor;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.dictionarybased.DictionaryBasedExtractor;
-import com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased.ExtractionResults;
+import com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased.AddressCandidates;
 import com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased.RankBasedExtractor;
 
 public class Main {
@@ -29,7 +29,7 @@ public class Main {
 
     private static void testRankBasedExtractor(TestSamples samples) {
         System.out.println("Rank based extractor");
-        Extractor e = new RankBasedExtractor("data/krakow_streets.txt", "data/krakow_districts.txt");
+        Extractor e = new RankBasedExtractor("data/cities.txt", "data/krakow_streets.txt", "data/krakow_districts.txt");
         testExtractor(samples, e);
     }
 
@@ -75,17 +75,17 @@ public class Main {
                 num_found++;
             } else
                 if (printFailedExtractions) {
-                    ExtractionResults.instance.printOut();
+                    AddressCandidates.lastProcessedCandidates.printOut();
                     System.out.println(sample);
                     System.out.println("Found address: " + address);
                     System.out.println();
                 }
-       
 
         }
+        
         System.out.println("Num samples - " + samples.size());
         System.out.println("Num found - " + num_found);
-        System.out.println("Efficiency: " + 100 * num_found / samples.size() + "%");
+        System.out.println("Effectiveness: " + 100 * num_found / samples.size() + "%");
         System.out.println();
     }
 

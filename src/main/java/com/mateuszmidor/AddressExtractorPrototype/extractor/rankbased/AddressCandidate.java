@@ -10,9 +10,9 @@ package com.mateuszmidor.AddressExtractorPrototype.extractor.rankbased;
  * @author m.midor
  *
  */
-public class ExtractionResult {
-	public String address = "";
-	public String context = "";
+public class AddressCandidate {
+	public String address = ""; // the address itself
+	public String source = ""; // where the address was found
 	public int precisionRank = 0;
 	public int correctnessRank = 0;
 }
