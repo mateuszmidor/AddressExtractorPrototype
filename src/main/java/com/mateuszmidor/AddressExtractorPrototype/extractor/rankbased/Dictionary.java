@@ -25,7 +25,7 @@ public class Dictionary extends LinkedList<String> {
     public static Dictionary fromFile(String filename) {
 
         Dictionary dictionary = new Dictionary();
-        try (Scanner s = new Scanner(Paths.get(filename))) {
+        try (Scanner s = new Scanner(Paths.get(filename), "UTF8")) {
             dictionary.readLines(s);
         } catch (IOException e) {
             System.out.println("Could not load dictionary " + filename);
