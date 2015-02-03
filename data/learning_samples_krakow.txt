@@ -1017,7 +1017,7 @@ expected=ul. Przewóz 36B
 source=Kraków
 source=Okazja!!! nowo wykończony dom Kraków Zielonki Cianowice Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Oferuję do wynajęcia nowo wykończony  dom położony 7 min od Zielonek.    Możliwość wprowadzenia się i zamieszkania od zaraz!     Dom usytuowany 100 metrów od drogi 794  Kraków- Skała-Wolbrom na ulicy Stawowej w Cianowicach (zledwie 15 minut jazdy od
-expected=[nie krakow]
+expected=Zielonki
 # 
 source=Iwona Odrowąża, Kraków, Polska
 source=Dwupokojowe Kraków Nowy Kleparz Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie

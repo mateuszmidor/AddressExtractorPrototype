@@ -86,20 +86,25 @@ public class RankBasedExtractor implements Extractor {
 	private void extractAddressWithNumber(String address, String source,
 			AddressCandidates results) {
 
-		// Obligatory space, then number, then possibly a letter
-		// eg. " 23a" in "Wieliczka 23a"
-		// ?: is for non-capturing group
-		final String OPTIONAL_NUMBER = "(?:[ ]{1,5}\\d{1,5}\\w?)?";
-
-		// \\b is for word boundary
-		Pattern p = Pattern.compile("\\b" + address + OPTIONAL_NUMBER + "\\b",
-				Pattern.UNICODE_CHARACTER_CLASS | Pattern.CASE_INSENSITIVE);
+		Pattern p = composePattern(address);
 		Matcher m = p.matcher(source);
 
 		if (m.find()) {
 			String addressWithNumber = m.group();
 			addAddressCandidate(addressWithNumber, source, results);
 		}
+	}
+
+	private Pattern composePattern(String address) {
+		// Obligatory space, then number, then possibly a letter
+		// eg. " 23a" in "Wielicka 23a"
+		// ?: is for non-capturing group
+		// \b is for word boundary
+		final String OPTIONAL_NUMBER = "(?:[ ]{1,5}\\d{1,5}\\w?)?";
+		
+		// this matches entire address eg "Wielicka 23a
+		return Pattern.compile("\\b" + address + OPTIONAL_NUMBER + "\\b",
+				Pattern.UNICODE_CHARACTER_CLASS | Pattern.CASE_INSENSITIVE);
 	}
 
 	private void addAddressCandidate(String address, String source,

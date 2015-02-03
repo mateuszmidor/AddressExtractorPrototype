@@ -8,15 +8,17 @@ public class RankCapitalLetter implements RankEvaluator {
 	@Override
 	public void evaluate(AddressCandidates results) {
 		for (AddressCandidate r : results) {
-			Pattern p = Pattern.compile("^[A-ZĄĆĘŁŃÓŚŹŻ]",
-					Pattern.UNICODE_CHARACTER_CLASS);
-			
+
+			Pattern p = composePattern();
 			Matcher m = p.matcher(r.address);
 			if (m.find()) {
 				r.correctnessRank++;
 			}
-
 		}
+	}
+
+	private Pattern composePattern() {
+		return Pattern.compile("^[A-ZĄĆĘŁŃÓŚŹŻ]", Pattern.UNICODE_CHARACTER_CLASS);
 	}
 
 }
