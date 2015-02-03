@@ -1,0 +1,532 @@
+Aleksandrów Kujawski
+Andrychów
+Augustów
+
+Barlinek
+Bartoszyce
+Bêdzin
+Be³chatów
+Be³¿yce
+Bia³a Podlaska
+Bia³ogard
+Bia³ystok
+Bielawa
+Bielsko-Bia³a
+Bielsk Podlaski
+Bieruñ Lêdziny
+Bierutów
+Bi³goraj
+Biskupiec
+Blachownia
+B³onie
+Bochnia
+Bogatynia
+Boguszów-Gorce
+Boles³awiec
+Bolków
+Braniewo
+Brodnica
+Brwinów
+Brzeg
+Brzeg Dolny
+Brzesko
+Brzeszcze
+Brzeziny
+Brzozów
+Bukowno
+Busko-Zdrój
+Bychawa
+Bydgoszcz
+Bystrzyca K³odzka
+Bytom
+Bytów
+
+Che³m
+Che³mek
+Che³mno
+Che³m¿a
+Chocianów
+Chodzie¿
+Chojnice
+Chojnów
+Chorzów
+Choszczno
+Chrzanów
+Ciechanów
+Ciechocinek
+Cieszyn
+Czarne
+Czarnków
+Czechowice-Dziedzice
+CzeladŸ
+Czersk
+Czerwionka-Leszczyny
+Czêstochowa
+Cz³uchów
+
+D¹browa Górnicza
+D¹browa Tarnowska
+Dar³owo
+Dêbica
+Dêbica
+Dêbno
+D³ugo³êka
+Dobre Miasto
+Drawsko-Pomorskie
+Drezdenko
+Duszniki-Zdrój
+Dzia³dowo
+Dzia³oszyn
+Dzierzgoñ
+Dzier¿oniów
+
+Elbl¹g
+E³k
+
+Garwolin
+Gdañsk
+Gdynia
+Gi¿ycko
+Gliwice
+G³ogów
+G³owno
+G³ubczyce
+G³ucho³azy
+G³uszyca
+Gniew
+Gniezno
+Goerlitz
+Go³dap
+Goleniów
+Golub-Dobrzyñ
+Góra
+Góra Kalwaria
+Gorlice
+Gorzów Wielkopolski
+Gostyñ
+Gostynin
+Grajewo
+Grodzisk Wielkopolski
+Grodzisk Mazowiecki
+Grójec
+Grudzi¹dz
+Gryfice
+Gryfino
+Gryfów Œl¹ski
+Gubin
+
+Hajnówka
+Hel
+Hrubieszów
+
+I³awa
+Imielin
+Inowroc³aw
+
+Janów Lubelski
+Jarocin
+Jaros³aw
+Jas³o
+Jastrowie
+Jastrzêbie-Zdrój
+Jawor
+Jaworzno
+Jêdrzejów
+Jelcz-Laskowice
+Jelenia Góra
+Józefów
+
+Kalety
+Kalisz
+Kamienna Góra
+Karczew
+Karpacz
+Kartuzy
+Katowice
+K¹ty Wroc³awskie
+Kazimierz Dolny
+Kêdzierzyn-KoŸle
+Kêpno
+Kêtrzyn
+Kêty
+Kielce
+K³obuck
+K³odawa
+K³odzko
+Kluczbork
+Knurów
+Koby³ka
+Kolbuszowa
+Kolno
+Ko³o
+Ko³obrzeg
+Koluszki
+Koniecpol
+Konin
+Koñskie
+Konstancin-Jeziorna
+Kórnik
+Koronowo
+Koœcian
+Koœcierzyna
+Kostrzyn
+Kostrzyn nad Odr¹
+Koszalin
+Kowary
+Kozienice
+Kozy
+Kraków
+Krapkowice
+Kraœnik
+Krasnystaw
+Krosno
+Krosno Odrzañskie
+Krotoszyn
+Krynica
+Krynica Morska
+Krzepice
+Krzeszowice
+Kudowa-Zdrój
+Kutno
+Kwidzyn
+
+L¹dek-Zdrój
+Lêbork
+Lêdziny
+Legionowo
+Legnica
+Leszno
+Le¿ajsk
+Libi¹¿
+Lidzbark
+Lidzbark Warmiñski
+Limanowa
+Lipno
+Lubaczów
+Lubañ
+Lubartów
+Lubawa
+Lubawka
+Lubin
+Lublin
+Lubliniec
+Luboñ
+Lubsko
+Lwówek Œl¹ski
+
+£añcut
+£apy
+£ask
+£aziska Górne
+£azy
+£eba
+£êczna
+£êczyca
+£obez
+£ódŸ
+£omianki
+£om¿a
+£owicz
+£uków
+
+Maków Mazowiecki
+Maków Podhalañski
+Malbork
+Marki
+Miasteczko Œl¹skie
+Miastko
+Miechów
+Miêdzychód
+Miêdzyrzecz
+Mielec
+Miko³ów
+Milanówek
+Milicz
+Miñsk Mazowiecki
+Mogilno
+Moñki
+Mor¹g
+Mosina
+Mr¹gowo
+Mszana Dolna
+Murowana Goœlina
+Myœlenice
+Myœlibórz
+Mys³owice
+Myszków
+
+
+Nak³o nad Noteci¹
+Namys³ów
+Nasielsk
+Nidzica
+Niepo³omice
+Nisko
+Nowa Dêba
+Nowa Ruda
+Nowa Sól
+Nowe Miasto Lubawskie
+Nowogard
+Nowy Dwór Gdañski
+Nowy Dwór Mazowiecki
+Nowy S¹cz
+Nowy Targ
+Nowy Tomyœl
+Nysa
+
+Oborniki
+Oborniki Œl¹skie
+Ogrodzieniec
+O³awa
+Olecko
+Oleœnica
+Olkusz
+Olsztyn
+Olsztynek
+Opalenica
+Opoczno
+Opole
+Opole Lubelskie
+Orneta
+Orzesze
+Ostróda
+Ostro³êka
+Ostrów Wielkopolski
+Ostrowiec Œwiêtokrzyski
+Ostrzeszów
+Oœwiêcim
+Otwock
+
+Pabianice
+Pajêczno
+Parczew
+Pas³êk
+Pelplin
+Piaseczno
+Piechowice
+Piekary Œl¹skie
+Pieñsk
+Pieszyce
+Pi³a
+Pi³awa Górna
+Piñczów
+Pionki
+Piotrków Trybunalski
+Pisz
+Pleszew
+P³ock
+P³oñsk
+Pniewy
+Pobiedziska
+Poddêbice
+Polanica-Zdrój
+Police
+Polkowice
+Poniatowa
+Porêba
+Poznañ
+Prabuty
+Proszowice
+Prudnik
+Pruszcz Gdañski
+Pruszków
+Przasnysz
+Przemków
+Przemyœl
+Przeworsk
+Przysucha
+Pszczyna
+Pszów
+Puck
+Pu³awy
+Pu³tusk
+Pyrzyce
+Pyskowice
+
+Rabka-Zdrój
+Racibórz
+Radlin
+Radom
+Radomsko
+Radzionków
+Radzymin
+Radzyñ Podlaski
+Rawa Mazowiecka
+Rawicz
+Reda
+RogoŸno
+Ropczyce
+Ruda Œl¹ska
+Rudnik nad Sanem
+Rumia
+Rybnik
+Rydu³towy
+Ryki
+Rypin
+Rzeszów
+
+Sandomierz
+Sanok
+Sêdziszów Ma³opolski
+Siechnice
+Siedlce
+Siemianowice Œl¹skie
+Siemiatycze
+Sieradz
+Sierpc
+Siewierz
+Skarszewy
+Skar¿ysko-Kamienna
+Skawina
+Skierniewice
+Skoczów
+Skwierzyna
+S³awków
+S³awno
+S³ubice
+S³upca
+S³upsk
+Sobótka
+Sochaczew
+Sokó³ka
+Soko³ów Podlaski
+Solec Kujawski
+Sopot
+Sosnowiec
+Stalowa Wola
+Starachowice
+Stargard
+Starogard Gdañski
+Stary S¹cz
+Staszów
+Stronie Œl¹skie
+Strzegom
+Strzelce Krajeñskie
+Strzelce Opolskie
+Strzelin
+Strzy¿ów
+Sucha Beskidzka
+Sulechów
+Sulêcin
+Sulejów
+Sulejówek
+Su³kowice
+Suwa³ki
+Swarzêdz
+Syców
+Szamotu³y
+Szczawnica
+Szczawno-Zdrój
+Szczebrzeszyn
+Szczecin
+Szczecinek
+Szczekociny
+Szczyrk
+Szczytno
+Szklarska Porêba
+Szprotawa
+Sztum
+Szyd³owiec
+
+Œrem
+Œroda Œl¹ska
+Œroda Wielkopolska
+Œwidnica
+Œwidnik
+Œwidwin
+Œwiebodzice
+Œwiebodzin
+Œwiecie
+Œwieradów-Zdrój
+Œwiêtoch³owice
+Œwinoujœcie
+
+Tarnobrzeg
+Tarnów
+Tarnowskie Góry
+Tczew
+Terespol
+Tomaszów Lubelski
+Tomaszów Mazowiecki
+Toruñ
+Toszek
+Trzcianka
+Trzebiatów
+Trzebinia
+Trzebnica
+Trzemeszno
+Tuchola
+Tuchów
+Turek
+Tuszyn
+Twardogóra
+Tychy
+
+Ustka
+Ustroñ
+Ustrzyki Dolne
+
+W¹brzeŸno
+Wadowice
+W¹growiec
+Wa³brzych
+Wa³cz
+Warka
+Warszawa
+Wasilków
+Wêgorzewo
+Wêgrów
+Wejherowo
+Wieliczka
+Wieluñ
+Wieruszów
+Wis³a
+Witkowo
+W³adys³awowo
+W³oc³awek
+W³odawa
+W³oszczowa
+Wodzis³aw Œl¹ski
+Wojkowice
+Wolbrom
+Wo³omin
+Wo³ów
+Wolsztyn
+WoŸniki
+Wroc³aw
+Wronki
+Wrzeœnia
+Wschowa
+Wyszków
+
+Z¹bkowice Œl¹skie
+Zabrze
+Zakopane
+Zambrów
+Zamoœæ
+Zawiercie
+Zb¹szyñ
+Zduñska Wola
+Zdzieszowice
+Zelów
+Zgierz
+Zgorzelec
+Ziêbice
+Zielona Góra
+Zielonka
+Z³ocieniec
+Z³otoryja
+Z³otów
+
+¯agañ
+¯arki
+¯arów
+¯ary
+¯migród
+¯nin
+¯ory
+¯ukowo
+¯uromin
+¯ychlin
+¯yrardów
+¯ywiec

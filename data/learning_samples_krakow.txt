@@ -1357,7 +1357,7 @@ expected=osiedle Centrum B 11
 source=Dąbska, Kraków, Polska
 source=Wynajmę miejsce postojowe w garażu pod blokiemprzy ul.Dąbskiej20 Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
 source=Wynajmę miejsce postojowe w garażu pod blokiem przy ul. Dąbskiej 20B. Pod budynkiem C. 16 m2. Koszt 200 zł / m-c
-expected=Dąbska
+expected=Dąbska 20B
 # 
 source=Jana Palacha 15, Kraków, Polska
 source=Kawalerka do wynajecia Dom, Mieszkanie do Wynajęcia - Gumtree Małopolskie
