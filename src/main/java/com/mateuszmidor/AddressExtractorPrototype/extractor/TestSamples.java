@@ -25,7 +25,7 @@ public class TestSamples extends LinkedList<TestSample> {
     public static TestSamples fromFile(final String filename) throws IOException {
         TestSamples result = new TestSamples();
         TestSample current = new TestSample();
-        Scanner s = new Scanner(Paths.get(filename));
+        Scanner s = new Scanner(Paths.get(filename), "UTF8");
 
         // SOURCE FILE STRUCTURE:
         // source=string1
@@ -109,7 +109,6 @@ public class TestSamples extends LinkedList<TestSample> {
             if (!matchesPatter(sample, p)) {
                 it.remove();
             }
-
         }
     }
 
